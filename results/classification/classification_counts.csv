@@ -1,0 +1,16 @@
+signature,bucket,delta_R,count
+2_3,dissolving,0,160
+2_3,dissolving,1,48
+2_3,inapplicable_to_simple_H0,0,18
+2_3,open_rule,n/a,402
+2_3,protected_cycle_growing,1,46
+2_3,protected_frozen,0,152
+2_4,dissolving,0,1232
+2_4,dissolving,1,848
+2_4,dissolving,2,100
+2_4,inapplicable_to_simple_H0,0,225
+2_4,inapplicable_to_simple_H0,1,24
+2_4,open_rule,n/a,5597
+2_4,protected_cycle_growing,1,945
+2_4,protected_cycle_growing,2,135
+2_4,protected_frozen,0,1292

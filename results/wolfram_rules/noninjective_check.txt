@@ -1,0 +1,1 @@
+non-injective-match check: 9662 events on random non-planar hosts with loops and parallel edges (1293 of them with a non-injective match), 3 Wolfram rules + 150 sampled minor-preserving rules: cycle-rank law violations 0, events producing a planar graph 0

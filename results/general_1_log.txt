@@ -1,0 +1,4 @@
+signature 1_2->2_2 (n_new<=1): closed rules 15 | simple-minor-preserving 15 | not sm: certificate 0, NO certificate 0 (of which K non-planar: 0) | planarisations among sm rules (sampled): 0 | enum 0s total 1s
+signature 1_2->3_2 (n_new<=2): closed rules 116 | simple-minor-preserving 116 | not sm: certificate 0, NO certificate 0 (of which K non-planar: 0) | planarisations among sm rules (sampled): 0 | enum 0s total 2s
+signature 1_2->4_2 (n_new<=2): closed rules 532 | simple-minor-preserving 532 | not sm: certificate 0, NO certificate 0 (of which K non-planar: 0) | planarisations among sm rules (sampled): 0 | enum 0s total 5s
+signature 1_2->5_2 (n_new<=3): closed rules 5238 | simple-minor-preserving 5238 | not sm: certificate 0, NO certificate 0 (of which K non-planar: 0) | planarisations among sm rules (sampled): 0 | enum 0s total 53s

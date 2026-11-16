@@ -1,0 +1,33 @@
+{
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "networkx": "3.6.1",
+  "numpy": "2.3.3",
+  "scipy": "1.16.3",
+  "argv": [
+    "oligon_experiment.py",
+    "census",
+    "--out",
+    "../results/census_2_4",
+    "--jobs",
+    "4",
+    "--sigs",
+    "2_4"
+  ],
+  "args": {
+    "seed": 20240601,
+    "cmd": "census",
+    "out": "../results/census_2_4",
+    "sigs": [
+      "2_4"
+    ],
+    "max_new": null,
+    "jobs": 4,
+    "conf_depth": 3,
+    "conf_max_edges": 14,
+    "conf_pairs": 12,
+    "conf_join": 2,
+    "conf_branch": 30
+  },
+  "time_utc": "2026-11-16T09:50:30Z"
+}

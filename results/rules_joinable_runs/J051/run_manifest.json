@@ -1,0 +1,63 @@
+{
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "networkx": "3.6.1",
+  "numpy": "2.3.3",
+  "scipy": "1.16.3",
+  "argv": [
+    "oligon_experiment.py",
+    "run",
+    "--out",
+    "<project root>/scripts/../results/rules_joinable_runs/J051",
+    "--rule",
+    "{{1,2},{1,3}}->{{2,1},{2,4},{4,3}}",
+    "--tmax",
+    "10",
+    "--n2d",
+    "8",
+    "--n3d",
+    "4",
+    "--max-edges",
+    "15000",
+    "--orc-sample",
+    "100",
+    "--tracking",
+    "cone"
+  ],
+  "args": {
+    "seed": 20240601,
+    "cmd": "run",
+    "out": "<project root>/scripts/../results/rules_joinable_runs/J051",
+    "rule": [
+      "{{1,2},{1,3}}->{{2,1},{2,4},{4,3}}"
+    ],
+    "backgrounds": [
+      "grid2d",
+      "grid3d"
+    ],
+    "defects": [
+      "K5",
+      "K33"
+    ],
+    "seps": [
+      3
+    ],
+    "orders": [
+      "random",
+      "canonical"
+    ],
+    "tracking": "cone",
+    "tmax": 10,
+    "max_edges": 15000,
+    "n2d": 8,
+    "n3d": 4,
+    "orc_sample": 100,
+    "orc_defect_cap": 60,
+    "no_orc": false,
+    "no_dim": false,
+    "dim_rmax": 8,
+    "global_planarity": false,
+    "planarity_max_edges": 30000
+  },
+  "time_utc": "2026-11-16T10:38:34Z"
+}

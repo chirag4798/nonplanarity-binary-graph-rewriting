@@ -1,0 +1,5 @@
+certificates: 2388 verified: 2388 failed: 0 {'A5': 2388}
+rules in summary: 5225 | not simple-minor-preserving (checker's own decision): 2388 | certified rules: 2388 | sets equal: True
+hosts used by certificates: {'A5': 2388} (A5 = simple K5, edges directed from lower to higher vertex index)
+events re-applied and matching: 2388/2388 | rotation systems valid: 2388/2388 | summary flags consistent: True
+CERTIFICATE VERIFICATION PASSED

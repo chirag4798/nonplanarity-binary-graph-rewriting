@@ -1,0 +1,11 @@
+rule,background,experiment,defect,sep,order,seed,steps,final_E,final_dim_est,Q_conserved_all_steps,beta1_global_constant,D1_nonplanar_all_steps,seconds
+"{{1,2},{2,3}}->{{1,4},{2,3},{4,3}}",grid3d,control,none,0,random,20240601,9,15922,3.3784147570835703,,1,,1.39
+"{{1,2},{2,3}}->{{1,4},{2,3},{4,3}}",grid3d,control,none,0,canonical,20248520,8,15949,2.554207951187556,,1,,1.18
+"{{1,2},{2,3}}->{{1,4},{2,3},{4,3}}",grid3d,single,K5,0,random,20256439,9,16105,3.4545846730607,False,1,True,1.95
+"{{1,2},{2,3}}->{{1,4},{2,3},{4,3}}",grid3d,single,K5,0,canonical,20264358,8,16111,2.9435643474951796,True,1,False,1.73
+"{{1,2},{2,3}}->{{1,4},{2,3},{4,3}}",grid3d,collision,K5,3,random,20272277,9,16416,2.8062291064710085,False,1,True,2.11
+"{{1,2},{2,3}}->{{1,4},{2,3},{4,3}}",grid3d,collision,K5,3,canonical,20280196,8,16235,2.8318338478661107,True,1,False,1.89
+"{{1,2},{2,3}}->{{1,4},{2,3},{4,3}}",grid3d,single,K33,0,random,20288115,9,16071,3.0269866011371733,False,1,False,1.97
+"{{1,2},{2,3}}->{{1,4},{2,3},{4,3}}",grid3d,single,K33,0,canonical,20296034,8,16123,2.850187262933014,False,1,False,1.62
+"{{1,2},{2,3}}->{{1,4},{2,3},{4,3}}",grid3d,collision,K33,3,random,20303953,9,16304,4.25027095335151,False,1,False,2.19
+"{{1,2},{2,3}}->{{1,4},{2,3},{4,3}}",grid3d,collision,K33,3,canonical,20311872,8,16234,2.493789585549844,False,1,False,2.02

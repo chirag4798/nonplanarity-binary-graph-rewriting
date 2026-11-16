@@ -1,0 +1,1 @@
+incidence-graph cycle-rank accounting: 809 random events (hyperedge arity 2 or 3, closed rules), violations 0
