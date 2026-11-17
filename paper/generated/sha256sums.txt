@@ -54,5 +54,5 @@ bfd682410bec6dfa59e01b6219daf68b3e08a7146bdd5b4ad2436267d4b7237e
     scripts/verify_planarity_certificates.py
 16f6fde0106fcba6dfd1cd74b740d64aa2c752352a217c2d3cc7b74b0138aa20
     scripts/check_noninjective_rigidity.py
-8ddd6de8772b549398cd8db1bf7bb85f851a435a16cc21936aef061f6f730ab7
-    supplement/oligon_supplement_v1.tar.gz (1594 files, 2938583 bytes)
+11cedd5f0e8aa931655148067c37a86b719b2bd600a965cf8e77cf07952c905f
+    supplement/oligon_supplement_v1.tar.gz (1596 files, 2944836 bytes)

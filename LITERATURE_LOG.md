@@ -16,3 +16,9 @@ This is the query log behind Appendix C of the paper (protocol and inclusion cri
 | 10 | Bilson-Thompson–Markopoulou–Smolin; Chester–Arsiwalla–Kauffman | Verified (Class. Quantum Grav. 24, 3975; arXiv:2501.03260). |
 | 11 | web: Betti numbers as conserved quantity in hypergraph rewriting | No source found. |
 | 12 | Patarroyo post; Summer School 2020 stable-defect project; technical-introduction page | Post exists, content not read; 2020 project not found; page listed by search but not fetchable (DNS failure) and not read. |
+
+## zbMATH Open queries (17 November 2026)
+
+The public zbMATH Open API (`https://api.zbmath.org`) was queried with `scripts/zbmath_search.py`; the full output, with the first eight hits per query, is in `results/literature/zbmath_queries.txt`. Queries: "graph transformation planarity preserving"; "graph grammar planar graphs"; "double pushout minor" (request failed); "hyperedge replacement planar"; "graph rewriting non-planar persistence" (no result); "graph rewriting" planar; "graph transformation" planar; "double pushout"; "graph grammar" planarity preserving (no result); "graph rewriting" minor; "hypergraph rewriting" Wolfram (no result); "graph rewriting" "Betti" (no result); "graph transformation" "graph minor".
+
+Items cited from these records (bibliographic record, and for Habel-Muller-Plump the zbMATH review, read; full texts not read): Habel, Muller and Plump (2001), Joshi and Konig (2008), Montanari (1970), Pascu and Paun (1979). No record concerned persistence of non-planarity or Betti numbers under rewriting. MathSciNet and Scopus were not searched.

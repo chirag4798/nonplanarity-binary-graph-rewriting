@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -73,10 +73,31 @@ Jonathan Gorard.
 \newblock \doi{10.25088/ComplexSystems.29.2.599}.
 \newblock arXiv:2004.14810.
 
+\bibitem[Habel et~al.(2001)Habel, M{\"u}ller, and Plump]{habel2001dpo}
+Annegret Habel, J{\"u}rgen M{\"u}ller, and Detlef Plump.
+\newblock Double-pushout graph transformation revisited.
+\newblock \emph{Mathematical Structures in Computer Science}, 11\penalty0
+  (5):\penalty0 637--688, 2001.
+\newblock \doi{10.1017/S0960129501003425}.
+
 \bibitem[Hatcher(2002)]{hatcher2002}
 Allen Hatcher.
 \newblock \emph{Algebraic Topology}.
 \newblock Cambridge University Press, 2002.
+
+\bibitem[Joshi and K{\"o}nig(2008)]{joshi2008minor}
+Salil Joshi and Barbara K{\"o}nig.
+\newblock Applying the graph minor theorem to the verification of graph
+  transformation systems.
+\newblock In \emph{Computer Aided Verification (CAV 2008)}, volume 5123 of
+  \emph{Lecture Notes in Computer Science}, pages 214--226. Springer, 2008.
+\newblock \doi{10.1007/978-3-540-70545-1_21}.
+
+\bibitem[Montanari(1970)]{montanari1970web}
+Ugo~G. Montanari.
+\newblock Separable graphs, planar graphs and {W}eb grammars.
+\newblock \emph{Information and Control}, 16:\penalty0 243--267, 1970.
+\newblock \doi{10.1016/S0019-9958(70)90135-X}.
 
 \bibitem[Newman(1942)]{newman1942}
 M.~H.~A. Newman.
@@ -89,6 +110,12 @@ Yann Ollivier.
 \newblock Ricci curvature of {M}arkov chains on metric spaces.
 \newblock \emph{Journal of Functional Analysis}, 256\penalty0 (3):\penalty0
   810--864, 2009.
+
+\bibitem[Pascu and P{\u{a}}un(1979)]{pascu1979planarity}
+Anca Pascu and Gheorghe P{\u{a}}un.
+\newblock On the planarity of bicolored digraph grammar systems.
+\newblock \emph{Discrete Mathematics}, 25:\penalty0 195--197, 1979.
+\newblock \doi{10.1016/0012-365X(79)90023-2}.
 
 \bibitem[Patarroyo(2021)]{patarroyo2021defect}
 Keith Patarroyo.

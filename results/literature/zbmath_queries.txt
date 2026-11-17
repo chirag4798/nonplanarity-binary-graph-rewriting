@@ -1,0 +1,60 @@
+== graph transformation planarity preserving  (total 5)
+ - 2017 | Alamdari, Soroush; Angelini, Patrizio; Barrera-Cruz, Fidel | How to morph planar graph drawings | SIAM J. Comput. 46, No. 2, 824-852 (2017). | https://doi.org/10.1137/16M1069171
+ - 2010 | Zenklusen, R. | Network flow interdiction on planar graphs | Discrete Appl. Math. 158, No. 13, 1441-1455 (2010). | https://doi.org/10.1016/j.dam.2010.04.008
+ - 2004 | Klette, Reinhard; Rosenfeld, Azriel | Digital geometry. Geometric methods for digital picture analysis. | San Francisco, CA: Morgan Kaufmann; Amsterdam: Elsevier (ISBN 1-55860- | http://www.sciencedirect.com/science/book/9781558608610
+ - 2020 |  | SOFSEM 2020: theory and practice of computer science. 46th international conference on current trends in theor | Lecture Notes in Computer Science 12011. Cham: Springer (ISBN 978-3-03 | https://doi.org/10.1007/978-3-030-38919-2
+ - 2021 |  | Proceedings of the 32nd annual ACM-SIAM symposium on discrete algorithms, SODA 2021, Alexandria, VA, USA, virt | Philadelphia, PA: Society for Industrial and Applied Mathematics (SIAM | https://doi.org/10.1137/1.9781611976465
+== graph grammar planar graphs  (total 42)
+ - 2008 | Chapuy, Guillaume; Fusy, Éric; Kang, Mihyun | A complete grammar for decomposing a family of graphs into 3-connected components | Electron. J. Comb. 15, No. 1, Paper No. R148, 39 p. (2008). | https://arxiv.org/abs/0808.1138
+ - 1984 | Rozenberg, G.; Welzl, E. | Boundary NLC grammars | Trees in algebra and programming, 9th Colloq., Bordeaux/France 1984, 2 | 
+ - 1970 | Montanari, U. G. | Separable graphs, planar graphs and Web grammars | Inf. Control 16, 243-267 (1970). | https://doi.org/10.1016/S0019-9958(70)90135-X
+ - 1979 | Pascu, Anca; Paun, Gheorghe | On the planarity of bicolored digraph grammar systems | Discrete Math. 25, 195-197 (1979). | https://doi.org/10.1016/0012-365X(79)90023-2
+ - 1992 | Sleator, Daniel D.; Tarjan, Robert E.; Thurston, William P. | Short encodings of evolving structures | SIAM J. Discrete Math. 5, No. 3, 428-450 (1992). | https://doi.org/10.1137/0405034
+ - 2012 | Cooper, Bobbe; Rowland, Eric; Zeilberger, Doron | Toward a language theoretic proof of the four color theorem | Adv. Appl. Math. 48, No. 2, 414-431 (2012). | https://doi.org/10.1016/j.aam.2011.11.002
+ - 1994 | Dassow, Jürgen | Decision problems for edge grammars | Privara, Igor (ed.) et al., Mathematical foundations of computer scien | https://doi.org/10.1007/3-540-58338-6_75
+ - 2001 | Anderson, James Andrew | Discrete mathematics with combinatorics | Upper Saddle River, NJ: Prentice Hall. xiv, 807 p., 67 p. append. (200 | 
+ERR double pushout minor Expecting value: line 1 column 1 (char 0)
+== hyperedge replacement planar  (total 7)
+ - 1993 | Drewes, Frank | Recognising \(k\)-connected hypergraphs in cubic time | Theor. Comput. Sci. 109, No. 1-2, 83-122 (1993). | https://doi.org/10.1016/0304-3975(93)90065-2
+ - 1992 |  | Lindenmayer systems. Impacts on theoretical computer science, computer graphics, and developmental biology | Berlin etc.: Springer-Verlag. X, 514 p. (1992). | 
+ - 2011 | Bozapalidis, Symeon; Kalampakas, Antonios | Pattern language recognition and generation | PU.M.A., Pure Math. Appl. 22, No. 1, 1-38 (2011). | 
+ - 1997 |  | Graph-theoretic concepts in computer science. 22nd international workshop, WG '96, Cadenabbia, Italy, June 12- | Lecture Notes in Computer Science 1197. Berlin: Springer (ISBN 978-3-5 | https://doi.org/10.1007/3-540-62559-3
+ - 1998 |  | Mathematical foundations of computer science 1998. 23rd international symposium, MFCS '98. Brno, Czech Republi | Lecture Notes in Computer Science 1450. Berlin: Springer. xvii, 846 p. | https://doi.org/10.1007/bfb0055753
+ - 2022 |  | 30th EACSL annual conference on computer science logic, CSL 2022, Göttingen, Germany, virtual conference, Febr | LIPIcs -- Leibniz International Proceedings in Informatics 216. Wadern | https://doi.org/10.4230/LIPIcs.CSL.2022.0
+ - 2022 |  | 30th annual European symposium on algorithms, ESA 2022, Berlin/Potsdam, Germany, September 5--9, 2022 | LIPIcs -- Leibniz International Proceedings in Informatics 244. Wadern | https://doi.org/10.4230/LIPIcs.ESA.2022.0
+== graph rewriting non-planar persistence  (total None)
+== "graph rewriting" planar  (total 7)
+ - 1993 | Arnborg, Stefan; Courcelle, Bruno; Proskurowski, Andrzej | An algebraic theory of graph reduction | J. Assoc. Comput. Mach. 40, No. 5, 1134-1164 (1993). | https://doi.org/10.1145/174147.169807
+ - 2003 | Imiya, Atsushi; Saito, Masahiko; Tatara, Ken | Digital curvature flow and its application for skeletonization | J. Math. Imaging Vis. 18, No. 1, 55-68 (2003). | https://doi.org/10.1023/A:1021893111352
+ - 1992 |  | Graph-theoretic concepts in computer science. 17th international workshop, WG '91, Fischbachau, Germany, June  | Lecture Notes in Computer Science 570. Berlin etc.: Springer-Verlag. V | https://doi.org/10.1007/3-540-55121-2
+ - 1995 |  | Graph-theoretic concepts in computer science. 21st international workshop, WG '95, Aachen, Germany, June 20--2 | Lecture Notes in Computer Science 1017. Berlin: Springer-Verlag (ISBN  | https://doi.org/10.1007/3-540-60618-1
+ - 1995 |  | Graph-theoretic concepts in computer science. 20th international workshop. WG '94, Herrsching, Germany, June 1 | Lecture Notes in Computer Science 903. Berlin: Springer-Verlag. ix, 41 | https://doi.org/10.1007/3-540-59071-4
+ - 2016 | Moser, Georg; Schett, Maria A. | Kruskal's tree theorem for acyclic term graphs | Corradini, Andrea (ed.) et al., Proceedings of the 9th international w | https://arxiv.org/abs/1609.03642
+ - 2000 |  | FST TCS 2000: Foundations of software technology and theoretical computer science. 20th conference, New Delhi, | Lecture Notes in Computer Science. 1974. Berlin: Springer. xiii, 532 p | https://doi.org/10.1007/3-540-44450-5
+== "graph transformation" planar  (total 21)
+ - 2012 | Souvaine, Diane L.; Tóth, Csaba D.; Winslow, Andrew | Simultaneously flippable edges in triangulations | Márquez, Alberto (ed.) et al., Computational geometry. XIV Spanish mee | https://doi.org/10.1007/978-3-642-34191-5_13
+ - 2008 | Duc, Luu Hoang; Siegmund, Stefan | Hyperbolicity and invariant manifolds for planar nonautonomous systems on finite time intervals | Int. J. Bifurcation Chaos Appl. Sci. Eng. 18, No. 3, 641-674 (2008). | https://doi.org/10.1142/S0218127408020562
+ - 2012 | Parks, Allen D. | Topological invariance under line graph transformations | Symmetry 4, No. 2, 329-335 (2012). | https://doi.org/10.3390/sym4020329
+ - 2015 | Akhter, Naveed; Tomescu, Ioan | Byciclic graphs with minimum general sum-connectivity index for \(-1\leq \alpha <0\) | Proc. Rom. Acad., Ser. A, Math. Phys. Tech. Sci. Inf. Sci. 16, No. 4,  | 
+ - 2001 | Edoh, K. D.; Lorenz, J. | Computation of Lyapunov-type numbers for invariant curves of planar maps | SIAM J. Sci. Comput. 23, No. 4, 1113-1134 (2001). | https://doi.org/10.1137/S1064827500366707
+ - 2007 | Emmert-Streib, Frank; Dehmer, Matthias | Topological mappings between graphs, trees and generalized trees | Appl. Math. Comput. 186, No. 2, 1326-1333 (2007). | https://doi.org/10.1016/j.amc.2006.07.162
+ - 2008 | Abellanas, Manuel; Bose, Prosenjit; García, Alfredo | On local transformations in plane geometric graphs embedded on small grids | Comput. Geom. 39, No. 2, 65-77 (2008). | https://doi.org/10.1016/j.comgeo.2006.12.004
+ - 1992 |  | Graph-theoretic concepts in computer science. 16th international workshop WG '90, Berlin, Germany, June 20--22 | Lecture Notes in Computer Science 484. Berlin etc.: Springer-Verlag. I | 
+== "double pushout"  (total 188)
+ - 2001 | Habel, Annegret; Müller, Jürgen; Plump, Detlef | Double-pushout graph transformation revisited | Math. Struct. Comput. Sci. 11, No. 5, 637-688 (2001). | https://doi.org/10.1017/S0960129501003425
+ - 2004 | Ehrig, Hartmut | Bigraphs meet double pushouts | Păun, G. (ed.) et al., Current trends in theoretical computer science. | 
+ - 1991 | Kennaway, Richard | Graph rewriting in some categories of partial morphisms | Graph grammars and their application to computer science, Proc. 4th In | https://doi.org/10.1007/bfb0017408
+ - 1999 | Gadducci, Fabio; Heckel, Reiko; Llabrés, Mercé | A bi-categorical axiomatisation of concurrent graph rewriting | Hofmann, Martin (ed.) et al., CTCS '99. Conference on category theory  | 
+ - 2004 | Lack, Stephen; Sobociński, Paweł | Adhesive categories | Walukiewicz, Igor (ed.), Foundations of software science and computati | https://doi.org/10.1007/b95995
+ - 2005 | Lack, Stephen; Sobociński, Paweł | Adhesive and quasiadhesive categories | Theor. Inform. Appl. 39, No. 3, 511-545 (2005). | https://doi.org/10.1051/ita:2005028
+ - 1994 | Corradini, A.; Ehrig, H.; Löwe, M. | Abstract graph derivations in the double pushout approach | Schneider, Hans Jürgen (ed.) et al., Graph transformations in computer | https://doi.org/10.1007/3-540-57787-4_6
+ - 2007 | Prange, Ulrike; Ehrig, Hartmut | From algebraic graph transformation to adhesive HLR categories and systems | Bozapalidis, Symeon (ed.) et al., Algebraic informatics. Second intern | https://doi.org/10.1007/978-3-540-75414-5_8
+== "graph grammar" planarity preserving  (total None)
+== "graph rewriting" minor  (total 2)
+ - 2013 | Grov, Gudmund; Kissinger, Aleks; Lin, Yuhui | A graphical language for proof strategies | McMillan, Ken (ed.) et al., Logic for programming, artificial intellig | https://doi.org/10.1007/978-3-642-45221-5_23
+ - 1996 |  | Graph grammars and their application to computer science. 5th international workshop, Williamsburg, VA, USA, N | Lecture Notes in Computer Science 1073. Berlin: Springer-Verlag. x, 56 | https://doi.org/10.1007/3-540-61228-9
+== "hypergraph rewriting" Wolfram  (total None)
+== "graph rewriting" "Betti"  (total None)
+== "graph transformation" "graph minor"  (total 2)
+ - 2008 | Joshi, Salil; König, Barbara | Applying the graph minor theorem to the verification of graph transformation systems | Gupta, Aarti (ed.) et al., Computer aided verification. 20th internati | https://doi.org/10.1007/978-3-540-70545-1_21
+ - 2008 |  | Computer aided verification. 20th international conference, CAV 2008, Princeton, NJ, USA, July 7--14, 2008. Pr | Lecture Notes in Computer Science 5123. Berlin: Springer (ISBN 978-3-5 | https://doi.org/10.1007/978-3-540-70545-1
