@@ -5,11 +5,12 @@ import gzip, hashlib, io, os, tarfile
 root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 os.chdir(root)
 os.makedirs("supplement", exist_ok=True)
-include = ["code", "scripts", "results", "README.md"]
+include = ["code", "scripts", "results", "README.md", "LICENSE", "LICENSE-DATA", "CITATION.cff", ".zenodo.json"]
 files = []
 for top in include:
     if os.path.isfile(top):
         files.append(top)
+        continue
     for d, dn, fn in os.walk(top):
         dn[:] = sorted(x for x in dn if x != "__pycache__")
         for f in sorted(fn):

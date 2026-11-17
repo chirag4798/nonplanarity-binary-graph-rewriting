@@ -1,8 +1,18 @@
 cff-version: 1.2.0
-message: "If you use this archive, please cite the associated paper and this deposit."
-title: "Supplement for: Persistence of Non-Planarity under Minimal Binary Graph Rewriting"
-version: "v1"
+message: "If you use this archive, please cite the paper and this archive."
+title: "Code, data and certificates for: Persistence of Non-Planarity under Minimal Binary Graph Rewriting"
+type: software
+version: "1.0.0"
+date-released: 2026-11-17
 authors:
-  - family-names: "TO BE FILLED"
-    given-names: "TO BE FILLED"
-# license: to be chosen by the authors before deposit
+  - family-names: "Shetty"
+    given-names: "Chirag"
+license: MIT
+repository-code: "https://github.com/chirag4798/nonplanarity-binary-graph-rewriting"
+keywords:
+  - graph rewriting
+  - planarity
+  - graph minors
+  - first Betti number
+  - Wolfram model
+abstract: "Rule enumeration, certificates, search outputs and experiment data supporting the paper 'Persistence of Non-Planarity under Minimal Binary Graph Rewriting: Cycle Rank, Minor Preservation, and an Exhaustive Classification'. Code is MIT-licensed; data, results and text are CC BY 4.0."

@@ -1,0 +1,5 @@
+(A) 2_2->3_2: Burnside total 424 | enumerated total 424 | per-(n_old,n_new) equal: True
+(A) 2_2->4_2: Burnside total 4801 | enumerated total 4801 | per-(n_old,n_new) equal: True
+(B) closed rules 5225 | second procedure: simple-minor-preserving 2837, minor-preserving 2570 |
+      disagreements with main code: 0 | semantic contraction failures: 0
+INDEPENDENT VERIFICATION PASSED

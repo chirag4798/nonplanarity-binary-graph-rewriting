@@ -1,0 +1,163 @@
+\begin{thebibliography}{22}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Arsiwalla and Gorard(2024)]{arsiwalla2021pregeometric}
+Xerxes~D. Arsiwalla and Jonathan Gorard.
+\newblock Pregeometric spaces from {W}olfram model rewriting systems as
+  homotopy types.
+\newblock \emph{International Journal of Theoretical Physics}, 63\penalty0
+  (4):\penalty0 83, 2024.
+\newblock \doi{10.1007/s10773-024-05576-0}.
+\newblock arXiv:2111.03460.
+
+\bibitem[Bilson-Thompson(2005)]{bilsonthompson2005}
+Sundance~O. Bilson-Thompson.
+\newblock A topological model of composite preons, 2005.
+\newblock arXiv:hep-ph/0503213.
+
+\bibitem[Bilson-Thompson et~al.(2007)Bilson-Thompson, Markopoulou, and
+  Smolin]{bilsonthompson2007}
+Sundance~O. Bilson-Thompson, Fotini Markopoulou, and Lee Smolin.
+\newblock Quantum gravity and the standard model.
+\newblock \emph{Classical and Quantum Gravity}, 24\penalty0 (16):\penalty0
+  3975--3994, 2007.
+\newblock arXiv:hep-th/0603022.
+
+\bibitem[Chester et~al.(2025)Chester, Arsiwalla, and
+  Kauffman]{chester2025preons}
+David Chester, Xerxes~D. Arsiwalla, and Louis~H. Kauffman.
+\newblock Preons, braid topology, and representations of fundamental particles,
+  2025.
+\newblock arXiv:2501.03260.
+
+\bibitem[Diestel(2017)]{diestel2017}
+Reinhard Diestel.
+\newblock \emph{Graph Theory}, volume 173 of \emph{Graduate Texts in
+  Mathematics}.
+\newblock Springer, 5 edition, 2017.
+
+\bibitem[Ehrig et~al.(2006)Ehrig, Ehrig, Prange, and Taentzer]{ehrig2006}
+Hartmut Ehrig, Karsten Ehrig, Ulrike Prange, and Gabriele Taentzer.
+\newblock \emph{Fundamentals of Algebraic Graph Transformation}.
+\newblock Monographs in Theoretical Computer Science. Springer, 2006.
+
+\bibitem[Fischer(2021)]{fischer2021obstructions}
+Paul Fischer.
+\newblock Wolfram physics project (winter school 2021 submission on topological
+  obstructions as candidate particles).
+\newblock GitHub repository pfischer1687/wolfram-physics-project, 2021.
+\newblock URL \url{https://github.com/pfischer1687/wolfram-physics-project}.
+\newblock Only the repository abstract was read; results are described there as
+  preliminary.
+
+\bibitem[Gorard(2020{\natexlab{a}})]{gorard2020algorithmic}
+Jonathan Gorard.
+\newblock Algorithmic causal sets and the {W}olfram model, 2020{\natexlab{a}}.
+\newblock arXiv:2011.12174; no journal version found.
+
+\bibitem[Gorard(2020{\natexlab{b}})]{gorard2020quantum}
+Jonathan Gorard.
+\newblock Some quantum mechanical properties of the {W}olfram model.
+\newblock \emph{Complex Systems}, 29\penalty0 (2):\penalty0 537--598,
+  2020{\natexlab{b}}.
+\newblock \doi{10.25088/ComplexSystems.29.2.537}.
+
+\bibitem[Gorard(2020{\natexlab{c}})]{gorard2020relativistic}
+Jonathan Gorard.
+\newblock Some relativistic and gravitational properties of the {W}olfram
+  model.
+\newblock \emph{Complex Systems}, 29\penalty0 (2):\penalty0 599--654,
+  2020{\natexlab{c}}.
+\newblock \doi{10.25088/ComplexSystems.29.2.599}.
+\newblock arXiv:2004.14810.
+
+\bibitem[Hatcher(2002)]{hatcher2002}
+Allen Hatcher.
+\newblock \emph{Algebraic Topology}.
+\newblock Cambridge University Press, 2002.
+
+\bibitem[Newman(1942)]{newman1942}
+M.~H.~A. Newman.
+\newblock On theories with a combinatorial definition of ``equivalence''.
+\newblock \emph{Annals of Mathematics}, 43\penalty0 (2):\penalty0 223--243,
+  1942.
+
+\bibitem[Ollivier(2009)]{ollivier2009}
+Yann Ollivier.
+\newblock Ricci curvature of {M}arkov chains on metric spaces.
+\newblock \emph{Journal of Functional Analysis}, 256\penalty0 (3):\penalty0
+  810--864, 2009.
+
+\bibitem[Patarroyo(2021)]{patarroyo2021defect}
+Keith Patarroyo.
+\newblock Defect movement in lattice rewriting systems.
+\newblock Wolfram Winter School 2021 project post (WWS21), Wolfram Community,
+  2021.
+\newblock URL \url{https://community.wolfram.com/groups/-/m/t/2164049}.
+\newblock Existence of the post verified; its content has not been read or
+  checked by the authors of this draft.
+
+\bibitem[Plump(2005)]{plump2005}
+Detlef Plump.
+\newblock Confluence of graph transformation revisited.
+\newblock In \emph{Processes, Terms and Cycles: Steps on the Road to Infinity},
+  volume 3838 of \emph{Lecture Notes in Computer Science}. Springer, 2005.
+\newblock starts p.~280; end page not confirmed.
+
+\bibitem[Wagner(1937)]{wagner1937}
+Klaus Wagner.
+\newblock \"uber eine eigenschaft der ebenen komplexe.
+\newblock \emph{Mathematische Annalen}, 114:\penalty0 570--590, 1937.
+\newblock \doi{10.1007/BF01594196}.
+
+\bibitem[Wolfram(2002)]{wolfram2002nks}
+Stephen Wolfram.
+\newblock \emph{A New Kind of Science}.
+\newblock Wolfram Media, 2002.
+
+\bibitem[Wolfram(2020{\natexlab{a}})]{wolfram2020class}
+Stephen Wolfram.
+\newblock A class of models with the potential to represent fundamental
+  physics.
+\newblock \emph{Complex Systems}, 29\penalty0 (2):\penalty0 107--536,
+  2020{\natexlab{a}}.
+\newblock \doi{10.25088/ComplexSystems.29.2.107}.
+\newblock arXiv:2004.08210.
+
+\bibitem[Wolfram(2020{\natexlab{b}})]{wolfram2020project}
+Stephen Wolfram.
+\newblock \emph{A Project to Find the Fundamental Theory of Physics}.
+\newblock Wolfram Media, 2020{\natexlab{b}}.
+
+\bibitem[Wolfram(2020{\natexlab{c}})]{wolframtechintro}
+Stephen Wolfram.
+\newblock The {W}olfram {P}hysics {P}roject: Technical introduction, section on
+  elementary particles.
+\newblock wolframphysics.org, 2020{\natexlab{c}}.
+\newblock URL
+  \url{https://www.wolframphysics.org/technical-introduction/potential-relation-to-physics/elementary-particles/}.
+\newblock Listed by a web search; the page text could not be fetched in the
+  authors' environment and was not independently read.
+
+\bibitem[Wolfram(2020{\natexlab{d}})]{wolframtechrules}
+Stephen Wolfram.
+\newblock The representation of rules, {W}olfram physics project technical
+  background.
+\newblock wolframphysics.org, 2020{\natexlab{d}}.
+\newblock URL
+  \url{https://www.wolframphysics.org/technical-introduction/typical-behaviors/the-representation-of-rules/}.
+\newblock Listed by a web search (signature notation $n_k$ for relations of
+  arity $k$); page text not read directly.
+
+\bibitem[{Wolfram Summer School 2021}(2021)]{elastic2021}
+{Wolfram Summer School 2021}.
+\newblock Towards discretizing metric-affine gravity via elastic hypergraphs.
+\newblock Notebook Archive 2021-07-60oanhf, 2021.
+\newblock URL \url{https://notebookarchive.org/2021-07-60oanhf}.
+\newblock Only search-result excerpts were read; not peer reviewed.
+
+\end{thebibliography}

@@ -1,0 +1,19 @@
+\begin{tabular}{llcccl}
+\toprule
+ID & rule & $\delta_R$ & path-pres. & minor-pres. & class / joinability\\
+\midrule
+F1 & \texttt{\{\{1,2\},\{2,3\}\}$\to$\{\{1,2\},\{2,4\},\{4,3\}\}} & 0 & yes & yes & frozen / joinable\_all\_tested\\
+F2 & \texttt{\{\{1,2\},\{2,3\}\}$\to$\{\{1,2\},\{2,3\},\{2,4\}\}} & 0 & yes & yes & frozen / joinable\_all\_tested\\
+F3 & \texttt{\{\{1,2\},\{1,3\}\}$\to$\{\{4,1\},\{4,2\},\{4,3\}\}} & 0 & no & yes & frozen / joinable\_all\_tested\\
+F4 & \texttt{\{\{1,2\},\{1,3\}\}$\to$\{\{1,2\},\{1,4\},\{4,3\}\}} & 0 & yes & yes & frozen / joinable\_all\_tested\\
+G1 & \texttt{\{\{1,2\},\{2,3\}\}$\to$\{\{1,2\},\{1,3\},\{2,3\}\}} & 1 & yes & yes & growing / joinable\_all\_tested\\
+G2 & \texttt{\{\{1,2\},\{1,3\}\}$\to$\{\{1,2\},\{1,3\},\{2,3\}\}} & 1 & yes & yes & growing / joinable\_all\_tested\\
+G3 & \texttt{\{\{1,2\},\{2,3\}\}$\to$\{\{1,2\},\{2,3\},\{3,2\}\}} & 1 & yes & yes & growing / joinable\_all\_tested\\
+D1 & \texttt{\{\{1,2\},\{1,3\}\}$\to$\{\{2,1\},\{2,4\},\{4,3\}\}} & 0 & no & no & dissolving / joinable\_all\_tested\\
+D2 & \texttt{\{\{1,2\},\{2,3\}\}$\to$\{\{1,2\},\{1,4\},\{4,3\}\}} & 0 & no & no & dissolving / joinable\_all\_tested\\
+D3 & \texttt{\{\{1,2\},\{2,3\}\}$\to$\{\{1,3\},\{2,1\},\{2,4\}\}} & 0 & no & no & dissolving / joinable\_all\_tested\\
+D4 & \texttt{\{\{1,2\},\{2,3\}\}$\to$\{\{1,3\},\{2,3\},\{3,2\}\}} & 1 & no & no & dissolving / joinable\_all\_tested\\
+D5 & \texttt{\{\{1,2\},\{1,3\}\}$\to$\{\{1,4\},\{2,1\},\{2,3\}\}} & 0 & no & no & dissolving / joinable\_all\_tested\\
+RC & \texttt{\{\{1,2\},\{1,3\}\}$\to$\{\{1,2\},\{2,3\},\{2,4\}\}} & 0 & no & no & dissolving / unjoined\_within\_J\\
+\bottomrule
+\end{tabular}

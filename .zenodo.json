@@ -1,0 +1,12 @@
+{
+  "title": "Code, data and certificates for: Persistence of Non-Planarity under Minimal Binary Graph Rewriting",
+  "upload_type": "software",
+  "description": "Rule enumeration, computer-assisted certificates (with a standalone checker), search outputs and experiment data supporting the paper \"Persistence of Non-Planarity under Minimal Binary Graph Rewriting: Cycle Rank, Minor Preservation, and an Exhaustive Classification\". Code is MIT-licensed; data, results and text are CC BY 4.0 (see LICENSE and LICENSE-DATA). To re-check the central claim: python3 scripts/verify_certificates.py",
+  "creators": [{"name": "Shetty, Chirag"}],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": ["graph rewriting", "planarity", "graph minors", "first Betti number", "Wolfram model", "computer-assisted proof"],
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "https://github.com/chirag4798/nonplanarity-binary-graph-rewriting", "scheme": "url"}
+  ]
+}

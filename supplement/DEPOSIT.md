@@ -1,13 +1,11 @@
-# Depositing the supplement (to do by the authors)
+# Archiving (Zenodo)
 
-1. Build: `python3 scripts/make_supplement.py` (deterministic; writes `supplement/oligon_supplement_v1.tar.gz` and `supplement/SHA256SUMS`).
-2. Choose a licence and fill the author fields in `CITATION.cff`.
-3. Upload `oligon_supplement_v1.tar.gz` to a persistent repository (for example Zenodo or OSF), copy the minted DOI into the paper's
-   "Data and code availability" section, and keep the SHA-256 of the archive (see `SHA256SUMS`) in Appendix A.
-4. Quick check of the headline claim from the archive: `tar xzf oligon_supplement_v1.tar.gz && python3 scripts/verify_certificates.py`
-   (Python 3 standard library only; reads `results/necessity/certificates.jsonl` and `necessity_summary.csv`).
+Zenodo (https://zenodo.org) is a free open repository run by CERN. It stores a permanent snapshot of this repository and gives it a DOI,
+which is what the paper cites. Metadata come from `.zenodo.json` and `CITATION.cff`.
 
-## Status of this repository
-Public GitHub copy of the supplement tree (code, scripts, results; logs and local paths removed). No licence has been chosen yet:
-until the authors add one, all rights are reserved by default. The archive tarball itself (SHA-256 in SHA256SUMS) is not stored here;
-rebuild it with `python3 scripts/make_supplement.py`.
+1. Sign in at https://zenodo.org with GitHub; open https://zenodo.org/account/settings/github/ and switch the repository
+   `nonplanarity-binary-graph-rewriting` ON.
+2. Publish a GitHub release (tag `v1.0.0`). Zenodo then archives that snapshot and mints two DOIs: one for this version and a
+   "concept" DOI that always points to the latest version.
+3. Put the DOI into `paper/doi.tex` (`\newcommand{\zenododoi}{10.5281/zenodo.NNNNNNN}`) and rebuild the paper.
+The deterministic tarball built by `python3 scripts/make_supplement.py` (SHA-256 in `SHA256SUMS`) is the same tree as the repository.

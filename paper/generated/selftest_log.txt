@@ -1,0 +1,16 @@
+selftest: 5225 closed rules enumerated (2_2->3_2 with <=1 new vertex, 2_2->4_2 with <=2)
+PASS Lemma 1 (closed rule: c preserved, Delta beta1 = delta_R) :: trials=495 violations=0
+PASS Lemma 1 general Euler identity (open rules too) :: trials=546 violations=0
+PASS path-preserving subset of minor-preserving
+   closed rules: 5225; minor-preserving: 2570; path-preserving: 1924; minor-preserving with delta_R=0: 1444
+PASS Theorem 4 counting identity (|C|=A,|X|=Dv,|M|=|L|) on all delta_R=0 minor models :: violations=0
+PASS Theorem 3: minor-preserving rules never planarise K5/K33 (random sequences) :: events=53514
+      violations=0
+PASS Theorem 1/Cor 1: beta1(H_t) = beta1(H_0) + (#events)*delta_R :: violations=0
+PASS Theorem 3(b): path-preserving, delta_R=0 => reduced core of H_t isomorphic to H_0 :: violations=0
+PASS Theorem 3 one-step exhaustive over all matches on K5,K33 :: violations=0
+   INFO non-minor-preserving closed rules that planarise K5 or K33 for >=1 match: 3582 (rule,defect) pairs
+PASS Counterexample R_c: closed, delta_R=0, beta1 stays 6, yet K5 -> planar
+PASS Lemma 4 (Mayer-Vietoris identity for graphs) :: trials=400 violations=0
+PASS Counterexample: two K5 sharing a triangle: beta1 = 6,6,11 (not 12) :: [6, 6, 11]
+SELFTEST PASSED

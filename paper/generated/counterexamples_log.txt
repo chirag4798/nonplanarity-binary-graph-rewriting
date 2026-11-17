@@ -1,0 +1,6 @@
+Delta->Y: closed True | simple-minor-preserving False | minor-preserving False
+  events 34796 | on non-planar hosts 27851: events giving a planar graph = 0 | planar hosts made non-planar
+      (Delta->Y does NOT preserve planarity): 480
+Gadget rule 2_2->12_2: closed True | K planar False | simple-minor-preserving False | minor-preserving False
+      | delta_R 4
+  events 2115 | outputs that are planar: 0 (hosts include planar ones)
