@@ -1,0 +1,3 @@
+{'events': 470854, 'noninjective_events': 245471, 'multigraph_checked': 460174, 'simple_checked': 10680}
+negative control: 600 rules that are not simple-minor-preserving, 0 pass the test for some valid assignment (must be 0)
+NON-INJECTIVE MINOR CHECK PASSED

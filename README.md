@@ -22,6 +22,8 @@ exactly the rules that are not simple-minor-preserving among all 5225), reading 
 | Lattice runs, all 126 joinable rules | Sec. 8 | `results/rules_joinable.txt`, `results/rules_joinable_runs*/` | `run_all_joinable.sh`, `run_selected.py`, `analyze_joinable.py` |
 | Lattice runs, selected rules | App. B | `results/rules_selected.txt`, `results/runs*/` | `run_selected.py`, `analyze_results.py` |
 | Wolfram-model rules, self-loop evolutions | Sec. 9 | `results/wolfram_rules/` | `run_wolfram_rules.sh`, `wolfram_bridge_study.py`, `analyze_wolfram_rules.py`, `code/wolfram_bridge.py` |
+| Planarity-preserving rules (Thm 14, Table 2) | Sec. 6.4 | `results/planarity/` | `planarity_preserving.py` |
+| Non-injective matches (Prop. 13 check) | Sec. 4 | `results/noninjective_minor_check.txt` | `check_noninjective_minor.py` |
 | Incidence-graph check | Sec. 9 | `results/incidence_check.txt` | `check_incidence_formula.py` |
 | Tables and figures | all | `paper/generated/`, `paper/figs/` | `analyze_results.py`, `analyze_joinable.py`, `analyze_wolfram_rules.py` |
 
@@ -39,6 +41,8 @@ exactly the rules that are not simple-minor-preserving among all 5225), reading 
     for m in main 3d model 3dmodel; do python scripts/run_selected.py 4 $m; done      # selected rules
     scripts/run_all_joinable.sh                                                       # several hours
     scripts/run_wolfram_rules.sh && python scripts/wolfram_bridge_study.py
+    python scripts/planarity_preserving.py          # ~2 min on 8 cores
+    python scripts/check_noninjective_minor.py
     python scripts/analyze_results.py && python scripts/analyze_joinable.py && python scripts/analyze_wolfram_rules.py
 The long jobs (all 126 rules, the 2->6 search) take hours on 8 cores. Absolute local paths were removed from run manifests and log files are not included.
 

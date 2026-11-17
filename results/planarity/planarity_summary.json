@@ -1,0 +1,29 @@
+{
+ "rules": 5225,
+ "simple_minor_preserving": 2837,
+ "satisfy_P": 2109,
+ "P_not_simple_minor": 0,
+ "nonP_without_certificate": 0,
+ "P_with_nonplanar_output_found": 0,
+ "certificates_by_base": {
+  "octahedron": 3116
+ },
+ "by_signature": {
+  "2_2->3_2": {
+   "rules": 424,
+   "simple_minor": 216,
+   "P": 180,
+   "P_delta0": 150,
+   "P_with_cycle_growth": 30
+  },
+  "2_2->4_2": {
+   "rules": 4801,
+   "simple_minor": 2621,
+   "P": 1929,
+   "P_delta0": 1269,
+   "P_with_cycle_growth": 660
+  }
+ },
+ "nonP_without_certificate_rules": [],
+ "P_violations": []
+}
