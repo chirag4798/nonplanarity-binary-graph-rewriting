@@ -1,0 +1,3 @@
+{'rules': 2570, 'events': 102082, 'noninjective': 43178, 'transport_checks': 1224984, 'rigidity_checks': 53451, 'two_core_checks': 37757}
+NON-INJECTIVE RIGIDITY CHECK PASSED
+negative control: 401579 violations detected (must be > 0)

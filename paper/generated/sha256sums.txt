@@ -26,6 +26,12 @@ f3a56666a302f0d5439502e46bdb4b2343c7a10ce5f9974b8ead88e4072a0dbe
     results/counterexamples_log.txt
 dd88dd175d0ea03f79bd35d065f4b3fa6fd375abe2588bbcdcf319685fea2400
     results/planarity/planarity_classification.csv
+d43c283a9e02236948ffe0eb6ed13d4cd3c2d2983c58c240ba128f90146555fb
+    results/planarity/certificates.jsonl
+1c75eab61ca5ca3bdb78399ca1f12a1f8812dbfee66a265fe3a3883128bbbedb
+    results/planarity/verify_log.txt
+7f2238ca17c7aff83d2eaaf46c42409399d726c2278c83478db15ef6cd62d13c
+    results/noninjective_rigidity_check.txt
 4fdcd164339210dc5a26e135e8f2098bdc42d15d5c0a10acf794c9d682f056cc
     results/noninjective_minor_check.txt
 7054d4082790c65276d0267f5226f2e918fbb90ae4aecd16e6344845c49c0c81
@@ -40,9 +46,13 @@ bfd682410bec6dfa59e01b6219daf68b3e08a7146bdd5b4ad2436267d4b7237e
     scripts/verify_independent.py
 8c858b95bc03c3b57b08c6aa7603be16b967a89bf2dac8420e9570a122ffe4ff
     scripts/general_signature_search.py
-16c59f741f0946291b199cc8684f5d0a0e0d9309b418e58e2fa7fd5fb96def77
+91917857b429f303c7fb3de92064b985580247880524719e0239ec7912ffc7e1
     scripts/planarity_preserving.py
 82487e880ec7a17de8049864e6fb358439b19e50410357bcc490228b2f1eb17f
     scripts/check_noninjective_minor.py
-3ea2972bf87ca29d1ce894e185c36a9ac975d5cfa5cabc8f17f1debdd7fd21fc
-    supplement/oligon_supplement_v1.tar.gz (1586 files, 2906346 bytes)
+526c953c7866814ab166915087011bfa9235f27e1022d4326f4fe6d3cacfdc04
+    scripts/verify_planarity_certificates.py
+16f6fde0106fcba6dfd1cd74b740d64aa2c752352a217c2d3cc7b74b0138aa20
+    scripts/check_noninjective_rigidity.py
+8ddd6de8772b549398cd8db1bf7bb85f851a435a16cc21936aef061f6f730ab7
+    supplement/oligon_supplement_v1.tar.gz (1594 files, 2938583 bytes)

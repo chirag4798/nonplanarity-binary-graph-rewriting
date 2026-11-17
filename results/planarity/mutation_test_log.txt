@@ -1,0 +1,6 @@
+drop Kuratowski edge         exit 1 ok
+permute binding              exit 1 ok
+drop output edge             exit 1 ok
+corrupt rotation system      exit 1 ok
+unchanged file               exit 0 ok
+MUTATION TEST PASSED

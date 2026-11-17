@@ -1,0 +1,4 @@
+rules in list: 5225 | satisfy P: 2109 | violate P: 3116 | certificates: 3116
+hosts planar (rotation system): 3116/3116 | bindings valid: 3116/3116 | outputs reproduced: 3116/3116 | Kuratowski subdivisions valid: 3116/3116
+rules satisfying P that are not simple-minor-preserving: 0
+PLANARITY CERTIFICATE VERIFICATION PASSED

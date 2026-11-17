@@ -117,6 +117,27 @@ def main():
         res = pool.map(analyse, S, chunksize=20)
     rows = [x[0] for x in res]
     P_viol = [x[0]["rule"] for x in res if x[0]["P"] and x[0]["cert_base"]]   # P rules with a non-planar output: must be none
+    # certificate records for the standalone checker verify_planarity_certificates.py (rules violating P)
+    with open(os.path.join(a.out, "certificates.jsonl"), "w") as f:
+        for r, x in zip(S, rows):
+            if x["P"]:
+                continue
+            name = x["cert_base"]; sigma = tuple(int(t) for t in x["cert_binding"].split(","))
+            G = BASES[name]
+            PL = [tuple(sorted(p)) for p in pairs_L(r)]
+            Hs = G.copy(); Hs.add_edges_from((sigma[u], sigma[v]) for u, v in PL)
+            ok, emb = nx.check_planarity(Hs); assert ok
+            m = {i: sigma[i] for i in range(r.n_old)}
+            for k in range(r.n_new):
+                m[r.n_old + k] = 1000 + k
+            Hp = Hs.copy(); Hp.add_edges_from((m[u], m[v]) for u, v in r.K if u != v)
+            ok2, kur = nx.check_planarity(Hp, counterexample=True); assert not ok2
+            f.write(json.dumps(dict(
+                rule=x["rule"], base=name, binding=list(sigma),
+                host_edges=sorted(tuple(sorted(e)) for e in Hs.edges()),
+                host_rotation={str(v): list(emb.neighbors_cw_order(v)) for v in Hs.nodes()},
+                output_edges=sorted(tuple(sorted(e)) for e in Hp.edges()),
+                kuratowski_edges=sorted(tuple(sorted(e)) for e in kur.edges()))) + "\n")
     with open(os.path.join(a.out, "planarity_classification.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
     n = len(rows)

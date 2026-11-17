@@ -31,9 +31,9 @@ data = buf.getvalue()
 open("supplement/oligon_supplement_v1.tar.gz", "wb").write(data)
 key = ["results/necessity/certificates.jsonl", "results/necessity/necessity_summary.csv", "results/classification/classification.csv",
        "results/census/rule_census.csv", "results/census_2_4/rule_census.csv", "results/rules_joinable.txt", "results/rules_selected.txt",
-       "results/wolfram_rules/selfloop_evolution.csv", "results/wolfram_rules/noninjective_check.txt", "results/incidence_check.txt", "results/selftest_log.txt", "results/verify_independent_log.txt", "results/counterexamples_log.txt", "results/planarity/planarity_classification.csv", "results/noninjective_minor_check.txt",
+       "results/wolfram_rules/selfloop_evolution.csv", "results/wolfram_rules/noninjective_check.txt", "results/incidence_check.txt", "results/selftest_log.txt", "results/verify_independent_log.txt", "results/counterexamples_log.txt", "results/planarity/planarity_classification.csv", "results/planarity/certificates.jsonl", "results/planarity/verify_log.txt", "results/noninjective_rigidity_check.txt", "results/noninjective_minor_check.txt",
        "code/oligon_experiment.py", "code/general_rules.py", "scripts/necessity_certificates.py", "scripts/verify_certificates.py",
-       "scripts/verify_independent.py", "scripts/general_signature_search.py", "scripts/planarity_preserving.py", "scripts/check_noninjective_minor.py"]
+       "scripts/verify_independent.py", "scripts/general_signature_search.py", "scripts/planarity_preserving.py", "scripts/check_noninjective_minor.py", "scripts/verify_planarity_certificates.py", "scripts/check_noninjective_rigidity.py"]
 lines = ["%s  %s" % (hashlib.sha256(open(k, "rb").read()).hexdigest(), k) for k in key if os.path.exists(k)]
 lines.append("%s  supplement/oligon_supplement_v1.tar.gz (%d files, %d bytes)" % (hashlib.sha256(data).hexdigest(), len(files), len(data)))
 open("supplement/SHA256SUMS", "w").write("\n".join(lines) + "\n")

@@ -7,16 +7,19 @@ and an Exhaustive Classification* (Chirag Shetty, 2026). The paper source and PD
 
 **Licences.** Code (`code/`, `scripts/`): MIT (`LICENSE`). Data, results, figures and text (`results/`, `paper/`): CC BY 4.0 (`LICENSE-DATA`).
 
-## Check the central claim in one minute (Python 3 only, no packages)
-    python3 scripts/verify_certificates.py
-This verifies the 2388 certificates behind Theorem 8 of the paper (host, event, planar rotation system, and that the certified rules are
+## Check the central claims in a minute (Python 3 only, no packages)
+    python3 -I scripts/verify_certificates.py
+    python3 -I scripts/verify_planarity_certificates.py
+The first verifies the 2388 certificates behind Theorem 9 of the paper (host, event, planar rotation system, and that the certified rules are
 exactly the rules that are not simple-minor-preserving among all 5225), reading `results/necessity/certificates.jsonl` and `necessity_summary.csv`.
+The second verifies the 3116 certificates behind Theorem 14 (planar host with rotation system, re-applied event, a Kuratowski subdivision in the output, and coverage of exactly the rules violating condition P), reading `results/planarity/certificates.jsonl`.
+`python3 scripts/mutation_test_planarity_verifier.py` shows that corrupted certificates are rejected. Appendix D of the paper ("Verifying the main results") describes the file formats and what the checkers assume. Archive: Zenodo DOI 10.5281/zenodo.24310938 (latest release).
 
 ## Where everything is
 | Item | In the paper | Files | Scripts (`scripts/` unless a path is given) |
 |---|---|---|---|
 | Rule enumeration and counts | App. A, Table 3 | `results/necessity/necessity_summary.csv` | `necessity_certificates.py`, `code/general_rules.py` |
-| Certificates (Theorem 8) | Sec. 6, App. A | `results/necessity/certificates.jsonl`, `verify_log.txt` | `necessity_certificates.py`; checker `verify_certificates.py` |
+| Certificates (Theorem 9) | Sec. 6, App. A | `results/necessity/certificates.jsonl`, `verify_log.txt` | `necessity_certificates.py`; checker `verify_certificates.py` |
 | Independent checks, counterexamples | App. A | `results/selftest_log.txt`, `verify_independent_log.txt`, `counterexamples_log.txt` | `code/oligon_experiment.py selftest`, `verify_independent.py`, `verify_counterexamples.py` |
 | Classification on isolated K5, K3,3 | App. B | `results/classification/` | `classify_rules.py` |
 | Joinability census | App. B | `results/census/`, `results/census_2_4/` | `code/oligon_experiment.py census` |
@@ -24,8 +27,9 @@ exactly the rules that are not simple-minor-preserving among all 5225), reading 
 | Lattice runs, all 126 joinable rules | Sec. 8 | `results/rules_joinable.txt`, `results/rules_joinable_runs*/` | `run_all_joinable.sh`, `run_selected.py`, `analyze_joinable.py` |
 | Lattice runs, selected rules | App. B | `results/rules_selected.txt`, `results/runs*/` | `run_selected.py`, `analyze_results.py` |
 | Wolfram-model rules, self-loop evolutions | Sec. 9 | `results/wolfram_rules/` | `run_wolfram_rules.sh`, `wolfram_bridge_study.py`, `analyze_wolfram_rules.py`, `code/wolfram_bridge.py` |
-| Planarity-preserving rules (Thm 14, Table 2) | Sec. 6.4 | `results/planarity/` | `planarity_preserving.py` |
-| Non-injective matches (Prop. 13 check) | Sec. 4 | `results/noninjective_minor_check.txt` | `check_noninjective_minor.py` |
+| Planarity-preserving rules (Thm 14, Table 2) | Sec. 6.4 | `results/planarity/` | `planarity_preserving.py`, checker `verify_planarity_certificates.py`, `mutation_test_planarity_verifier.py` |
+| Non-injective matches (Prop. 5 checks) | Sec. 4 | `results/noninjective_minor_check.txt`, `results/noninjective_rigidity_check.txt` | `check_noninjective_minor.py`, `check_noninjective_rigidity.py` |
+| Running examples (Table 1) | Sec. 2 | `paper/generated/tab_examples.tex` | `make_examples_table.py` |
 | Literature search log | App. C | `LITERATURE_LOG.md` | – |
 | Incidence-graph check | Sec. 9 | `results/incidence_check.txt` | `check_incidence_formula.py` |
 | Tables and figures | all | `paper/generated/`, `paper/figs/` | `analyze_results.py`, `analyze_joinable.py`, `analyze_wolfram_rules.py` |
@@ -46,6 +50,7 @@ exactly the rules that are not simple-minor-preserving among all 5225), reading 
     scripts/run_wolfram_rules.sh && python scripts/wolfram_bridge_study.py
     python scripts/planarity_preserving.py          # ~2 min on 8 cores
     python scripts/check_noninjective_minor.py
+    python scripts/check_noninjective_rigidity.py
     python scripts/analyze_results.py && python scripts/analyze_joinable.py && python scripts/analyze_wolfram_rules.py
 The long jobs (all 126 rules, the 2->6 search) take hours on 8 cores. Absolute local paths were removed from run manifests and log files are not included.
 
