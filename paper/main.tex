@@ -9,6 +9,7 @@
 \usepackage{tikz}
 \usepackage{verbatim}
 \usepackage{fvextra}
+\usepackage{placeins}
 \usepackage{titlesec}
 \titleformat{\section}{\normalfont\large\bfseries}{\thesection}{0.6em}{}
 \titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.6em}{}
@@ -105,7 +106,7 @@ The literature search and its protocol are described in Appendix~\ref{app:lit}.
 %==============================================================================
 \section{Preliminaries}\label{sec:prelim}
 \begin{definition}[States, rules, events]
-A \emph{state} is a finite multiset $E$ of ordered pairs (loop-free except where created by events) over the vertex set $V$ of vertices incident to at least one edge, $H=(V,E)$. A \emph{rule of signature $2_2\to k_2$} is $R=(L\to K)$: $L$ is a multiset of two loop-free ordered pairs over variables $\var(L)$, $K$ a multiset of $k$ loop-free ordered pairs over $\var(K)$, $n_{\rm new}=|\var(K)\setminus\var(L)|$. A \emph{match} is an injective map $\varphi:\var(L)\to V$ sending the two edges of $L$ to two distinct edges of $E$ (with their orientations). An \emph{event} deletes the two matched edges and adds the image of $K$, each new variable going to a fresh vertex. A \emph{generation step} applies a maximal set of pairwise edge-disjoint matches; it equals a sequence of single events. Rules are considered up to renaming of variables and reordering of edges.
+A \emph{state} is a finite multiset $E$ of ordered pairs of vertices; loops $(v,v)$ and parallel edges are allowed (loops arise only from events with non-injective matches, Proposition~\ref{prop:noninj}, or from the initial state). $V$ is the set of vertices incident to at least one edge, $H=(V,E)$. A \emph{rule of signature $2_2\to k_2$} is $R=(L\to K)$ with $L$ a multiset of two and $K$ a multiset of $k$ ordered pairs over finite sets of variables $\var(L)$, $\var(K)$; the two variables of each pair are distinct (patterns are loop-free), and $n_{\rm new}=|\var(K)\setminus\var(L)|$. A \emph{match} is a map $\varphi:\var(L)\to V$ sending the two edges of $L$ to two distinct edges of $E$ with their orientations; unless stated otherwise it is injective. An \emph{event} deletes the two matched edges and adds the image of $K$, each new variable going to a fresh vertex. A \emph{generation step} applies a maximal set of pairwise edge-disjoint matches; it equals a sequence of single events. Rules are considered up to renaming of variables and reordering of edges.
 \end{definition}
 
 \begin{definition}[Cycle rank]
@@ -218,11 +219,11 @@ Let $R$ be closed and minor-preserving with $\delta_R=0$. Fix a branch assignmen
 \end{enumerate}
 \end{theorem}
 \begin{proof}
-Let $A$ be the number of new variables assigned to old variables and $D$ the number of discarded ones, so $A+D=n_{\rm new}$. Since $K$ is loop-free, each edge of $K$ lies in exactly one of: $C$ (both ends in the same branch set $B_a$), $X$ (at least one end discarded), $M$ (ends in two distinct branch sets). So $|K|=|C|+|X|+|M|$.
+Let $n_{\rm asg}$ be the number of new variables assigned to old variables and $n_{\rm disc}$ the number of discarded ones, so $n_{\rm asg}+n_{\rm disc}=n_{\rm new}$. Since $K$ is loop-free, each edge of $K$ lies in exactly one of: $C$ (both ends in the same branch set $B_a$), $X$ (at least one end discarded), $M$ (ends in two distinct branch sets). So $|K|=|C|+|X|+|M|$.
 
-\emph{Three lower bounds.} (1) $|C|\ge A$: each $B_a$ is connected by $C$-edges, so contains at least $|B_a|-1$ of them, and $\sum_a(|B_a|-1)=A$. (2) $|M|\ge|L|$: by (ii) of Definition~\ref{def:minor} the edges of $M$ cover the $|L|$ edges of $L$ as a multiset. (3) $|X|\ge D$: form the graph $Q$ whose vertices are the $D$ discarded variables and one extra vertex $s$, with one edge for every edge of $X$, in which an endpoint belonging to a branch set is replaced by $s$ ($Q$ has no loops since every $X$-edge has a discarded endpoint). Every discarded vertex $d$ is joined to $s$ in $Q$: since $K$ is connected there is a path in $K$ from $d$ to an old variable; the initial segment up to the first non-discarded vertex consists of $X$-edges and gives a path from $d$ to $s$ in $Q$. So $Q$ is connected on $D+1$ vertices and has at least $D$ edges.
+\emph{Three lower bounds.} (1) $|C|\ge n_{\rm asg}$: each $B_a$ is connected by $C$-edges, so contains at least $|B_a|-1$ of them, and $\sum_a(|B_a|-1)=n_{\rm asg}$. (2) $|M|\ge|L|$: by (ii) of Definition~\ref{def:minor} the edges of $M$ cover the $|L|$ edges of $L$ as a multiset. (3) $|X|\ge n_{\rm disc}$: form the graph $Q$ whose vertices are the $n_{\rm disc}$ discarded variables and one extra vertex $s$, with one edge for every edge of $X$, in which an endpoint belonging to a branch set is replaced by $s$ ($Q$ has no loops since every $X$-edge has a discarded endpoint). Every discarded vertex $d$ is joined to $s$ in $Q$: since $K$ is connected there is a path in $K$ from $d$ to an old variable; the initial segment up to the first non-discarded vertex consists of $X$-edges and gives a path from $d$ to $s$ in $Q$. So $Q$ is connected on $n_{\rm disc}+1$ vertices and has at least $n_{\rm disc}$ edges.
 
-\emph{Equality.} $\delta_R=0$ means $|K|=|L|+n_{\rm new}=|L|+A+D$, and (1)--(3) give $|K|\ge A+|L|+D$. Hence all three bounds are equalities. Consequently: (1$'$) the $C$-edges inside each $B_a$ form a spanning tree $T_a$ of $B_a$ (exactly $|B_a|-1$ edges that connect it), and there are no other $C$-edges, in particular no edge parallel to a tree edge; (2$'$) $M$ consists of exactly $|L|$ edges, which therefore correspond bijectively to the edges of $L$; (3$'$) $Q$ is connected with $D+1$ vertices and $D$ edges, hence a tree.
+\emph{Equality.} $\delta_R=0$ means $|K|=|L|+n_{\rm new}=|L|+n_{\rm asg}+n_{\rm disc}$, and (1)--(3) give $|K|\ge n_{\rm asg}+|L|+n_{\rm disc}$. Hence all three bounds are equalities. Consequently: (1$'$) the $C$-edges inside each $B_a$ form a spanning tree $T_a$ of $B_a$ (exactly $|B_a|-1$ edges that connect it), and there are no other $C$-edges, in particular no edge parallel to a tree edge; (2$'$) $M$ consists of exactly $|L|$ edges, which therefore correspond bijectively to the edges of $L$; (3$'$) $Q$ is connected with $n_{\rm disc}+1$ vertices and $n_{\rm disc}$ edges, hence a tree.
 
 \emph{Structure.} In $H'$ contract each tree $\varphi(T_a)$ to the vertex $\varphi(a)$ and call the result $H''$. No loops arise: no extra $C$-edges exist by (1$'$), and $M$-edges join distinct branch sets. The edges of $H-L_m$ are unchanged, and by (2$'$) the $M$-edges become exactly copies of the consumed edges $L_m$ (with the same endpoints $\varphi(a),\varphi(b)$), so $H''$ contains $H$. The remaining edges are the images of $X$. By (3$'$), each component of the graph induced by the discarded vertices is a tree and is joined to $s$ (that is, to the old part) by exactly one edge of $X$; since discarded vertices are fresh and meet only $X$-edges, these are pendant trees in $H''$, each attached at one vertex $\varphi(a)$ by exactly one edge. So $H''=H\,\cup$ pendant trees, and $H'$ is obtained from $H''$ by expanding the vertices $\varphi(a)$ into the trees $\varphi(T_a)$. This is (i).
 
@@ -420,6 +421,10 @@ All code, rule lists, certificates, classification tables and raw experiment out
 The author used Claude (Anthropic), a large language model, as an assistant for drafting text and proofs and for writing code. AI tools do not meet the criteria for authorship and are not listed as authors; the author is responsible for the content. The following checks were run by code: the unit-level consistency tests (\texttt{selftest}); the independent verification of all 2388 planarity certificates; the Burnside recount of the rule enumeration; a second implementation of the minor-preservation decision, compared on all 5225 rules, with a semantic contraction test; and the search and counterexample scripts (outputs in Appendix~\ref{app:audit}). All reported numbers are generated from the data by the analysis scripts of the archive and were not entered by hand.
 
 %==============================================================================
+\FloatBarrier
+\bibliographystyle{plainnat}
+\bibliography{references}
+\clearpage
 \appendix
 \section{Computational audit of the classification}\label{app:audit}
 \subsection{Rules and canonical encoding}
@@ -483,28 +488,8 @@ Python 3.13.5, networkx 3.6.1, numpy 2.3.3, scipy 1.16.3 (matplotlib 3.11.2 for 
 \end{figure*}
 
 \section{Literature search protocol and log}\label{app:lit}
-\paragraph{Protocol.} Searches were run on 16 November 2026. Sources: a general web search tool (English) and, for bibliographic databases, the public APIs of arXiv (Atom API) and INSPIRE-HEP; queries to the zbMATH Open API and to Semantic Scholar failed (HTTP 404/403 and 429) and MathSciNet and Scopus were not accessible. A reference is cited only if its title, authors and venue (or arXiv identifier) were confirmed from a retrieved record; items whose content could not be read are cited with a note. Inclusion criteria: work on (i) particles, defects or non-planar structures in Wolfram-model rewriting; (ii) causal invariance and confluence of hypergraph rewriting; (iii) topological or homological invariants of rewriting states; (iv) braid/ribbon particle models; (v) the graph-theoretic and curvature tools used here. A negative result means ``not found by these queries''.
-\begin{table*}[t]\centering\scriptsize
-\begin{tabular}{p{0.4cm}p{5.2cm}p{9.2cm}}
-\toprule
-\# & Query & Outcome\\
-\midrule
-1 & web: oligons, particles, topological defects, Wolfram model & Wolfram essays and technical introduction; Winter School 2021 $K_5$-in-tiling project (repository abstract); Gorard's tangle remarks. Cited.\\
-2 & Gorard (2020b), full text, tangles & Read via HTML rendering: \S2.4 conditional heuristic on planarity-preserving rules, annihilation, charge analogy; Noether analogue deferred; ``oligon'' not used in that paper.\\
-3 & web: causal invariance, confluence, critical pairs & Gorard 2020 (arXiv:2011.12174); Grossberndt notebook (experimental prover). Cited.\\
-4 & arXiv API: ``Wolfram model'' with planar/defect/particle/topological & 2 records, all by Gorard on relativity/numerical GR; none on non-planar structures, defects or invariants.\\
-5 & arXiv API: ``hypergraph rewriting'' with topological/homology/planarity/invariant & 3 records (Gorard); none relevant to (a)--(c) of our criteria.\\
-6 & INSPIRE-HEP: ``hypergraph rewriting'' or ``Wolfram model'' in title/abstract & 8 records; closest: Arsiwalla--Gorard homotopy types (published Int.\ J.\ Theor.\ Phys.\ 63(4), 2024); none on defects, non-planarity or Betti numbers by title. Confirmed DOI of Gorard (2020b).\\
-7 & INSPIRE-HEP: ``non-planar'' and ``graph rewriting'' in abstract & 0 records.\\
-8 & zbMATH Open API, Semantic Scholar & Failed (404/403/429); no records.\\
-9 & Lin--Lu--Yau; Bourne et al.; Wagner (1937); Ehrig et al.; Plump & Verified by web records (Ehrig book authors are Ehrig, Ehrig, Prange, Taentzer; Plump 2005 start page 280, end page unconfirmed; a second Plump title could not be verified and is not cited).\\
-10 & Bilson-Thompson--Markopoulou--Smolin; Chester--Arsiwalla--Kauffman & Verified (Class.\ Quantum Grav.\ 24, 3975; arXiv:2501.03260).\\
-11 & web: Betti numbers as conserved quantity in hypergraph rewriting & No source found.\\
-12 & Patarroyo post; Summer School 2020 stable-defect project; technical-introduction page & Post exists, content not read; 2020 project not found; page listed by search but not fetchable (DNS failure) and not read.\\
-\bottomrule
-\end{tabular}
-\caption{Literature search log (16 November 2026).}
-\end{table*}
+\paragraph{Protocol.} Searches were run on 16 November 2026. Sources: a general web search tool (English) and the public APIs of arXiv and INSPIRE-HEP; the zbMATH Open and Semantic Scholar interfaces returned no usable records, and MathSciNet and Scopus were not accessible. The full query log is in the archive (\path{LITERATURE_LOG.md}). A reference is cited only if its title, authors and venue (or arXiv identifier) were confirmed from a retrieved record; items whose content could not be read are cited with a note. Inclusion criteria: work on (i) particles, defects or non-planar structures in Wolfram-model rewriting; (ii) causal invariance and confluence of hypergraph rewriting; (iii) topological or homological invariants of rewriting states; (iv) braid/ribbon particle models; (v) the graph-theoretic and curvature tools used here. A negative result means ``not found by these queries''.
+
 \noindent MathSciNet, zbMATH and Scopus were not searched, and no citation-chain search of the cited works was made.
 
 \section{Guide to the archive}\label{app:guide}
@@ -532,6 +517,4 @@ Tables and figures & all & \path{paper/generated/}; \path{paper/figs/} & \path{a
 \caption{Where to find the experimental material (scripts are in \texttt{scripts/} unless a path is given).}\label{tab:guide}
 \end{table*}
 
-\bibliographystyle{plainnat}
-\bibliography{references}
 \end{document}

@@ -5,7 +5,7 @@ import gzip, hashlib, io, os, tarfile
 root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 os.chdir(root)
 os.makedirs("supplement", exist_ok=True)
-include = ["code", "scripts", "results", "README.md", "LICENSE", "LICENSE-DATA", "CITATION.cff", ".zenodo.json"]
+include = ["code", "scripts", "results", "README.md", "LITERATURE_LOG.md", "LICENSE", "LICENSE-DATA", "CITATION.cff", ".zenodo.json"]
 files = []
 for top in include:
     if os.path.isfile(top):

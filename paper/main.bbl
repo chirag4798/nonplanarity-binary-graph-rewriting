@@ -51,13 +51,11 @@ Paul Fischer.
   obstructions as candidate particles).
 \newblock GitHub repository pfischer1687/wolfram-physics-project, 2021.
 \newblock URL \url{https://github.com/pfischer1687/wolfram-physics-project}.
-\newblock Only the repository abstract was read; results are described there as
-  preliminary.
 
 \bibitem[Gorard(2020{\natexlab{a}})]{gorard2020algorithmic}
 Jonathan Gorard.
 \newblock Algorithmic causal sets and the {W}olfram model, 2020{\natexlab{a}}.
-\newblock arXiv:2011.12174; no journal version found.
+\newblock arXiv:2011.12174.
 
 \bibitem[Gorard(2020{\natexlab{b}})]{gorard2020quantum}
 Jonathan Gorard.
@@ -98,15 +96,13 @@ Keith Patarroyo.
 \newblock Wolfram Winter School 2021 project post (WWS21), Wolfram Community,
   2021.
 \newblock URL \url{https://community.wolfram.com/groups/-/m/t/2164049}.
-\newblock Existence of the post verified; its content has not been read or
-  checked by the authors of this draft.
 
 \bibitem[Plump(2005)]{plump2005}
 Detlef Plump.
 \newblock Confluence of graph transformation revisited.
 \newblock In \emph{Processes, Terms and Cycles: Steps on the Road to Infinity},
   volume 3838 of \emph{Lecture Notes in Computer Science}. Springer, 2005.
-\newblock starts p.~280; end page not confirmed.
+\newblock \doi{10.1007/11601548_16}.
 
 \bibitem[Wagner(1937)]{wagner1937}
 Klaus Wagner.
@@ -140,8 +136,6 @@ Stephen Wolfram.
 \newblock wolframphysics.org, 2020{\natexlab{c}}.
 \newblock URL
   \url{https://www.wolframphysics.org/technical-introduction/potential-relation-to-physics/elementary-particles/}.
-\newblock Listed by a web search; the page text could not be fetched in the
-  authors' environment and was not independently read.
 
 \bibitem[Wolfram(2020{\natexlab{d}})]{wolframtechrules}
 Stephen Wolfram.
@@ -150,14 +144,11 @@ Stephen Wolfram.
 \newblock wolframphysics.org, 2020{\natexlab{d}}.
 \newblock URL
   \url{https://www.wolframphysics.org/technical-introduction/typical-behaviors/the-representation-of-rules/}.
-\newblock Listed by a web search (signature notation $n_k$ for relations of
-  arity $k$); page text not read directly.
 
 \bibitem[{Wolfram Summer School 2021}(2021)]{elastic2021}
 {Wolfram Summer School 2021}.
 \newblock Towards discretizing metric-affine gravity via elastic hypergraphs.
 \newblock Notebook Archive 2021-07-60oanhf, 2021.
 \newblock URL \url{https://notebookarchive.org/2021-07-60oanhf}.
-\newblock Only search-result excerpts were read; not peer reviewed.
 
 \end{thebibliography}

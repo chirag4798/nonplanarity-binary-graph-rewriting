@@ -24,6 +24,7 @@ exactly the rules that are not simple-minor-preserving among all 5225), reading 
 | Wolfram-model rules, self-loop evolutions | Sec. 9 | `results/wolfram_rules/` | `run_wolfram_rules.sh`, `wolfram_bridge_study.py`, `analyze_wolfram_rules.py`, `code/wolfram_bridge.py` |
 | Planarity-preserving rules (Thm 14, Table 2) | Sec. 6.4 | `results/planarity/` | `planarity_preserving.py` |
 | Non-injective matches (Prop. 13 check) | Sec. 4 | `results/noninjective_minor_check.txt` | `check_noninjective_minor.py` |
+| Literature search log | App. C | `LITERATURE_LOG.md` | – |
 | Incidence-graph check | Sec. 9 | `results/incidence_check.txt` | `check_incidence_formula.py` |
 | Tables and figures | all | `paper/generated/`, `paper/figs/` | `analyze_results.py`, `analyze_joinable.py`, `analyze_wolfram_rules.py` |
 
