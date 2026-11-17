@@ -8,7 +8,7 @@ authors:
   - family-names: "Shetty"
     given-names: "Chirag"
 license: MIT
-doi: 10.5281/zenodo.24310939
+doi: 10.5281/zenodo.24312557
 repository-code: "https://github.com/chirag4798/nonplanarity-binary-graph-rewriting"
 keywords:
   - graph rewriting
