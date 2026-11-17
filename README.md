@@ -1,5 +1,7 @@
 # Persistence of non-planarity under minimal binary graph rewriting: code, data and certificates
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24310939.svg)](https://doi.org/10.5281/zenodo.24310939) Archived release v1.0.0 on Zenodo (all versions: https://doi.org/10.5281/zenodo.24310938).
+
 Supplementary material for the paper *Persistence of Non-Planarity under Minimal Binary Graph Rewriting: Cycle Rank, Minor Preservation,
 and an Exhaustive Classification* (Chirag Shetty, 2026). The paper source and PDF are in `paper/`.
 
