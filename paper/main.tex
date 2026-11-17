@@ -1,13 +1,23 @@
-\documentclass[11pt]{article}
+\documentclass[10pt]{article}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[margin=1.15in]{geometry}
+\usepackage[letterpaper,top=0.9in,bottom=0.9in,left=0.75in,right=0.75in,columnsep=0.3in]{geometry}
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{xurl}
 \usepackage{tikz}
 \usepackage{verbatim}
+\usepackage{fvextra}
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{1.4ex plus .4ex}{0.8ex}
+\titlespacing*{\subsection}{0pt}{1.1ex plus .3ex}{0.6ex}
+\usepackage{enumitem}
+\setlist{itemsep=1pt,topsep=3pt,parsep=0pt,leftmargin=1.5em}
+\setlength{\parindent}{1em}
+\sloppy
 \usepackage{graphicx}
 \usepackage{microtype}
 \usepackage{fancyhdr}
@@ -41,6 +51,8 @@
 \setlength{\headheight}{14pt}
 
 \begin{document}
+\makeatletter
+\twocolumn[\begin{@twocolumnfalse}
 \maketitle
 
 \begin{abstract}
@@ -49,6 +61,9 @@ We study rewriting systems on directed multigraphs in which two edges are replac
 
 \noindent\textbf{Keywords:} graph rewriting; planarity; graph minors; first Betti number; hypergraph rewriting; Wolfram model.\\
 \noindent\textbf{MSC 2020:} 05C10, 05C83, 68Q42.
+\bigskip
+\end{@twocolumnfalse}]
+\makeatother
 
 %==============================================================================
 \section{Introduction}
@@ -141,7 +156,7 @@ $L$ is connected; $K$ is connected on $\{1,2,3,4\}$; $n_{\rm new}=1$, so $\delta
 
 \begin{figure}[ht]
 \centering
-\begin{tikzpicture}[scale=1.15,every node/.style={circle,draw,fill=white,inner sep=1.5pt,font=\small}]
+\resizebox{\columnwidth}{!}{\begin{tikzpicture}[scale=1.15,every node/.style={circle,draw,fill=white,inner sep=1.5pt,font=\small}]
 \begin{scope}
 \foreach \i/\n in {0/x,1/y,2/z,3/u,4/v}{\node (a\n) at ({90+72*\i}:1.3) {$\n$};}
 \foreach \p/\q in {x/y,x/z,x/u,x/v,y/z,y/u,y/v,z/u,z/v,u/v}{\draw (a\p)--(a\q);}
@@ -157,7 +172,7 @@ $L$ is connected; $K$ is connected on $\{1,2,3,4\}$; $n_{\rm new}=1$, so $\delta
 \draw (by)--(bw);
 \node[draw=none,fill=none] at (0,-2) {after $R_c$: planar embedding, $\Betti=6$};
 \end{scope}
-\end{tikzpicture}
+\end{tikzpicture}}
 \caption{Proposition~\ref{prop:counter}. $R_c$ deletes $xy,xz$ and adds $xy,yz,yw$. The multigraph keeps $\Betti=6$ (the added $yz$ is parallel to an existing edge, drawn once), but the simple graph is $K_5-xz$ with a pendant vertex, which is planar. The drawing is the triangular bipyramid on $\{y,u,v\}$ with apexes $x$ and $z$.}\label{fig:counter}
 \end{figure}
 
@@ -247,10 +262,10 @@ In a planar embedding the edges $wx,wy,wz$ leave $w$ in some cyclic order. Delet
 
 \subsection{A bounded search beyond $\mathcal S$ (evidence, not a proof)}\label{sec:general}
 To see how far (iii)$\Rightarrow$(i) extends, \texttt{general\_signature\_search.py} repeats the certificate search for further signatures $m_2\to k_2$, with a generalised enumerator that reproduces $\mathcal S$ exactly. Hosts are $K_5$ and $K_{3,3}$ with the left side planted with its exact multiplicities (all injective placements of the old variables), plus the simple and doubled versions. Table~\ref{tab:general} gives the outcome. Rules that are simple-minor-preserving never planarised a host in the sampled matches (\input{generated/general_bad} planarisations, as Theorem~\ref{thm:protect} requires). For $m=1$ every closed rule is simple-minor-preserving. For $m=2$ and $k=3,\dots,7$ every rule that is not simple-minor-preserving has a certificate: necessity held for all rules searched. The exceptions occur only for $m=3$, and are exactly the $\Delta\to Y$ variants of Proposition~\ref{prop:necfail}(a) (no unexplained case). The search is bounded: the bounds on new variables are not exhaustive for $k\ge5$, the $m=3$ signatures were searched with at most one new variable, and a rule without a certificate on the hosts used is only a candidate counterexample (each was explained here).
-\begin{table}[ht]\centering\scriptsize
+\begin{table*}[t]\centering\scriptsize
 \resizebox{\textwidth}{!}{\input{generated/tab_general}}
 \caption{\textbf{Bounded} necessity search beyond $\mathcal S$ (closed loop-free rules up to renaming); the bound on new variables $n_{\rm new}$ is shown for each signature and is not exhaustive for $k\ge5$. A rule with a certificate is proved to violate protection on one host; the table makes no claim about rules outside these bounds, and ``no certificate'' is only a candidate counterexample. ``Not s.m., no certificate'' is split by the explanation found.}\label{tab:general}
-\end{table}
+\end{table*}
 
 %==============================================================================
 \section{Two defects: additivity of cycle rank}\label{sec:two}
@@ -280,14 +295,14 @@ The theorems above are mathematical; the experiments answer two specific questio
 \paragraph{Q1: cycle-rank law and persistence.} \input{generated/joinable_stats} (all rules, both tracking modes, all backgrounds) satisfy $\Betti(H_t)=\Betti(H_0)+\delta_R\cdot(\text{events up to }t)$ at every step, as Corollary~\ref{cor:global} requires; the 13 selected rules of Appendix~\ref{app:exp} add \input{generated/cor1_check}, also with no violation. On the 2D grid the cone-labelled defect stays non-planar for all $t\le10$ for all 106 minor-preserving rules and for none of the 20 other rules (Table~\ref{tab:joinable}), in line with Theorem~\ref{thm:protect} and Theorem~\ref{thm:dichotomy}. Global planarity of the 2D background is not a reliable witness: without any defect the planar grid becomes non-planar by itself under most of the rules (Appendix~\ref{app:exp}).
 
 \paragraph{Q2: tracking.} With cone labelling the sum $\Sigma=\Betti(D_1)+\Betti(D_2)$ is conserved in all four 2D collision runs for only 48 of the 88 $\delta_R=0$ rules and 6 of the 18 $\delta_R>0$ rules, and for none of the 20 non-minor-preserving rules; $\Sigma$ grows (to thousands for $\delta_R>0$) because events that consume a defect edge and a background edge label all their product edges, so the labelled subgraph absorbs background cycles (Figure~\ref{fig:coll}, left). With minor-model transport, $\Sigma$ is conserved and $\iota_t\equiv0$ for all 106 minor-preserving rules (Figure~\ref{fig:coll}, right), as Proposition~\ref{prop:transport} proves. Hence causal-cone labelling is not a valid definition of a conserved defect charge, even for rules where protection is a theorem.
-\begin{table}[ht]\centering\scriptsize
+\begin{table*}[t]\centering\scriptsize
 \input{generated/tab_joinable}
 \caption{All 126 joinable $2_2\to3_2$ rules, 2D grid ($n=8$), $K_5$ and $K_{3,3}$, canonical and random order (4 runs per rule and experiment). Entries: rules for which the property holds in all 4 runs / rules with complete data. ``Cone'': causal-cone labelling; ``model'': minor-model transport.}\label{tab:joinable}
-\end{table}
-\begin{figure}[ht]\centering
+\end{table*}
+\begin{figure*}[t]\centering
 \includegraphics[width=0.85\textwidth]{figs/fig_collision.pdf}
 \caption{$\beta_1(D_1)+\beta_1(D_2)$ along $K_5$ collisions on the 2D grid (canonical order, four selected rules): cone labelling (left, symlog axis) and minor-model transport (right).}\label{fig:coll}
-\end{figure}
+\end{figure*}
 \paragraph{Limitations of the experiments.} The horizon is $t\le10$ generations (the edge cap stops some runs earlier); rules are those passing a bounded filter; backgrounds are small; no claim about continuum limits or particle behaviour is made (additional descriptive measurements are in the archive).
 
 %==============================================================================
@@ -306,10 +321,10 @@ The proposal that motivates the study is that particle-like objects (oligons) co
 
 \subsection{Rules from the Wolfram-model literature}
 Table~\ref{tab:wolfram} lists three binary rules of signature $2_2\to4_2$ taken from the Wolfram-model literature (provenance as found in the literature search: the first, $\{\{x,y\},\{x,z\}\}\to\{\{x,z\},\{x,w\},\{y,w\},\{z,w\}\}$, appears in Wolfram Cloud working notebooks and in the project's visual summary as the example rule; the second, in which $\{x,y\}$ replaces $\{x,z\}$ on the right, in Fig.~14 of \citet{gorard2020algorithmic}; the third, $\{\{x,y\},\{y,z\}\}\to\{\{w,y\},\{y,z\},\{z,w\},\{x,w\}\}$, is reported in the literature as a widely used example (an original page was not checked)). All three have a single new vertex, so they lie in $\mathcal S$; all three are closed with $\delta_R=1$ and \emph{path-preserving}, hence minor-preserving and, by Theorem~\ref{thm:dichotomy}, protecting non-planarity (the first has branch assignment $w\mapsto x$: the edge $\{x,y\}$ is covered by $\{y,w\}$, and $\{x,z\}$ by $\{x,z\}$).
-\begin{table}[ht]\centering\scriptsize
+\begin{table*}[t]\centering\scriptsize
 \resizebox{\textwidth}{!}{\input{generated/tab_wolfram_rules}}
 \caption{Three binary Wolfram-model rules ($2_2\to4_2$, one new vertex). Lattice runs as in Section~\ref{sec:exp} (2D $8\times8$ and 3D $7\times7\times7$ grids, $K_5$ and $K_{3,3}$ defects, canonical and random order; runs stop when $|E|>15000$, so $t_{\max}$ is small for these edge-doubling rules). Entries: runs satisfying the property / runs (2D, 3D). The cycle-rank law holds in \wolframlaw{} lattice evolutions.}\label{tab:wolfram}
-\end{table}
+\end{table*}
 Consequences. Each is a theorem for injective matches. The evolutions from the standard initial condition begin with non-injective matches, so for them the statements below are numerical checks (Table~\ref{tab:selfloop}), not theorems:
 \begin{itemize}
 \item \emph{No annihilation under these rules.} By Theorem~\ref{thm:protect}(a), $H_0$ is a minor of $H_t$ for every update order, so every minor of $H_0$, in particular every $K_5$ or $K_{3,3}$ minor model, remains a minor of $H_t$. Under these rules, a $K_5$ or $K_{3,3}$ minor present at some time never ceases to be a minor later.
@@ -317,10 +332,10 @@ Consequences. Each is a theorem for injective matches. The evolutions from the s
 \item \emph{Transported defects.} A subgraph carried through the rules' minor model keeps its cycle rank, and two such subgraphs keep their interaction term (Proposition~\ref{prop:transport}); the causal-cone labelling does not (Table~\ref{tab:wolfram}, last two columns).
 \end{itemize}
 \emph{From the standard initial condition.} Table~\ref{tab:selfloop} gives evolutions from $\{\{0,0\},\{0,0\}\}$ with non-injective matching. The simple graph is planar at first and becomes non-planar at generation 3 to 5; by the first consequence it then stays non-planar for ever. So under these rules non-planarity is not a feature that must be inserted into a planar graph: it arises within a few generations and is permanent. We did not analyse where the non-planar minors lie, nor whether they are localised. For graphs that approximate a 3-dimensional space, non-planarity of the graph is in any case not an obstruction in the planar sense (a large 3-dimensional lattice contains $K_{3,3}$ minors), so the planar tangle picture refers to the planar, 2-dimensional case; we do not know of a source that formulates its analogue for dimension 3, and we do not address one.
-\begin{table}[ht]\centering\scriptsize
+\begin{table*}[t]\centering\scriptsize
 \input{generated/tab_selfloop}
 \caption{Evolution of the rules of Table~\ref{tab:wolfram} from the double self-loop with non-injective matching (maximal sets of disjoint matches per generation, canonical or random order; the order of the Wolfram Language is not reproduced; runs stop when $|E|>6000$).}\label{tab:selfloop}
-\end{table}
+\end{table*}
 
 \subsection{Rules outside the class, and what would have to change}
 We analysed no rule with a hyperedge of arity $\ge3$, and no rule from the literature outside the pure binary class. Extending the results would need the following.
@@ -354,65 +369,65 @@ The author used Claude (Anthropic), a large language model, as an assistant for 
 A rule $L\to K$ is encoded by $n_{\rm old}$, $n_{\rm new}$, the multiset $L$ of two ordered pairs over variables $0,\dots,n_{\rm old}-1$ and the multiset $K$ of $k$ ordered pairs over $0,\dots,n_{\rm old}+n_{\rm new}-1$, loops excluded. Two encodings are the same rule if one is obtained from the other by a permutation of $\{0,..,n_{\rm old}-1\}$ and a permutation of $\{n_{\rm old},..,n_{\rm old}+n_{\rm new}-1\}$ applied to all edges of $L$ and $K$ (edge order is irrelevant: $L$ and $K$ are multisets).
 \subsection{Enumeration and duplicate elimination}
 \emph{Left sides.} All multisets of two loop-free ordered pairs over $\{0,1,2,3\}$ that are connected (as an undirected graph) are relabelled by order of first appearance in each of the two edge orders, and the lexicographic minimum of the two relabelled sequences is the canonical left side; the distinct canonical left sides are the classes. For each class, $\mathrm{Aut}(L)$ is the set of permutations of its variables mapping the edge multiset to itself. \emph{Right sides.} For each $n_{\rm new}\le$ bound, all multisets of $k$ loop-free ordered pairs over $n_{\rm old}+n_{\rm new}$ variables are generated; those that do not use every variable or are not weakly connected are discarded (this is closedness). Each remaining $K$ is replaced by the lexicographic minimum, over $\mathrm{Aut}(L)$ and all permutations of the new variables, of its sorted edge tuple; equal minima are duplicates. Counts by $(n_{\rm old},n_{\rm new})$ are in Table~\ref{tab:enum}. A generalised implementation (\texttt{general\_rules.py}) reproduces both sets exactly, and the counts were recomputed by Burnside's lemma on the group $S_{n_{\rm old}}\times S_{n_{\rm new}}$ acting on raw pairs $(L,K)$ without canonical forms (\texttt{verify\_independent.py}); the results agree for every $(n_{\rm old},n_{\rm new})$.
-\begin{table}[ht]\centering\small
+\begin{table*}[t]\centering\small
 \input{generated/tab_enum}
 \caption{Closed rules in $\mathcal S$ by $(n_{\rm old},n_{\rm new})$; ``not'': rules that are not simple-minor-preserving (each has a verified certificate).}\label{tab:enum}
-\end{table}
+\end{table*}
 \subsection{Decision procedures}
 \emph{Main procedure} (\texttt{oligon\_experiment.minor\_models}). For every assignment of each new variable to $\{\bot,0,\dots,n_{\rm old}-1\}$: build the branch sets; reject if some branch set is not connected by $K$-edges inside it; let $M$ be the $K$-edges whose ends lie in two distinct branch sets (ends not discarded); accept if the multiset of unordered pairs of $M$ contains that of $L$ (minor-preserving) or if every distinct pair of $L$ occurs in it (simple-minor-preserving).
 \emph{Second procedure} (\texttt{verify\_independent.decide}). Written separately with plain loops: it builds the same branch sets, checks connectivity by an explicit search restricted to the branch set, forms the contracted edge list from group labels, and compares multisets. It agrees with the main procedure on all 5225 rules (simple and multigraph versions). Every branch assignment it returns is additionally tested semantically: for each rule and 12 random host graphs and matches, the event is applied, the branch sets are contracted in the actual output graph, and the contraction is required to contain the host (as a simple graph, and as a multigraph for multigraph-minor-preserving rules); no failure occurred. Residual dependence: both use the same notion of rule and the semantic test uses the shared event routine.
 \subsection{Certificates and verification}
 For a rule that is not simple-minor-preserving, \texttt{necessity\_certificates.py} applies injective matches to four hosts (simple oriented $K_5$ and $K_{3,3}$, and versions with each edge as $(a,b),(a,b),(b,a)$) and stops at the first event whose simple projection is planar. A certificate is a JSON object with fields \texttt{rule}, \texttt{H0}, \texttt{match} (variable to vertex), \texttt{edges\_after} (edge list of the output) and \texttt{rotation} (cyclic order of neighbours at each vertex, from the embedding). Example (first certificate in the file):
-\begingroup\scriptsize\verbatiminput{generated/cert_example.txt}\endgroup
+{\VerbatimInput[fontsize=\tiny,breaklines=true,breakanywhere=true]{generated/cert_example.txt}}
 \noindent Host $A_5$ is $K_5$ on vertices $0,\dots,4$ with the edges $(a,b)$, $a<b$. \texttt{verify\_certificates.py} is standalone (standard library only). It rebuilds $A_5$, consumes one host edge for each left-side edge according to the recorded match (same orientation), re-applies the right side with fresh vertices $5,6,\dots$ and compares the edge multiset with \texttt{edges\_after}; it traces all faces of the rotation system on the simple projection and checks $n-m+f=1+c$, the standard criterion for a rotation system to define a planar embedding (no planarity tester is used); and it checks coverage: that the set of certified rules equals the set of rules it itself decides to be not simple-minor-preserving, that each is certified once, that no simple-minor-preserving rule is certified, and that every certificate has host $A_5$. To re-check the headline claim one needs only Python 3 and the files \texttt{results/necessity/certificates.jsonl} and \texttt{necessity\_summary.csv}; the command is \texttt{python3 scripts/verify\_certificates.py}. Its output:
-\begingroup\scriptsize\verbatiminput{generated/verify_certificates_log.txt}\endgroup
+{\VerbatimInput[fontsize=\tiny,breaklines=true,breakanywhere=true]{generated/verify_certificates_log.txt}}
 \subsection{Machine checks of lemmas and independent verification (logs)}
-\begingroup\scriptsize\verbatiminput{generated/selftest_log.txt}\endgroup
-\begingroup\scriptsize\verbatiminput{generated/verify_independent_log.txt}\endgroup
+{\VerbatimInput[fontsize=\tiny,breaklines=true,breakanywhere=true]{generated/selftest_log.txt}}
+{\VerbatimInput[fontsize=\tiny,breaklines=true,breakanywhere=true]{generated/verify_independent_log.txt}}
 \paragraph{Counterexample checks (Proposition~\ref{prop:necfail}).}
-\begingroup\scriptsize\verbatiminput{generated/counterexamples_log.txt}\endgroup
+{\VerbatimInput[fontsize=\tiny,breaklines=true,breakanywhere=true]{generated/counterexamples_log.txt}}
 \subsection{Reproducibility and archive}
 Python 3.13.5, networkx 3.6.1, numpy 2.3.3, scipy 1.16.3 (matplotlib 3.11.2 for figures); global seed 20240601. Commands are listed in \texttt{README.md}. The archive \texttt{oligon\_supplement\_v1.tar.gz} contains the code, scripts, rule lists, certificates, classification and census tables, search outputs and raw experiment outputs. Checksums:
-\begingroup\tiny\verbatiminput{generated/sha256sums.txt}\endgroup
+{\VerbatimInput[fontsize=\tiny,breaklines=true,breakanywhere=true]{generated/sha256sums.txt}}
 
 \section{Experimental details and additional measurements}\label{app:exp}
 \paragraph{Joinability filter.} Test states are those along a canonical-order evolution of $T=3$ generations from three small seed graphs, capped at 14 edges; for up to $P=12$ pairs of distinct matches per state, both single-event results must have isomorphic descendants within $J=2$ further events (branching cap 30; Weisfeiler--Lehman hash plus exact isomorphism). Outcomes: \texttt{joinable\_all\_tested}, \texttt{unjoined\_within\_J}, \texttt{inconclusive}. Table~\ref{tab:census} cross-tabulates the outcome with the rule class for the closed rules; the filter does not separate the classes. The filter is a necessary-condition test on finitely many states; confluence is undecidable already for terminating graph rewriting systems \citep{plump2005}, and ``unjoined within $J$'' does not prove failure of confluence.
-\begin{table}[ht]\centering\small
+\begin{table*}[t]\centering\small
 \input{generated/tab_census}
 \caption{Bounded joinability outcome by rule class (closed rules).}\label{tab:census}
-\end{table}
+\end{table*}
 \paragraph{Classification runs.} \texttt{classify\_rules.py} applies every injective match once to the simple $K_5$ and $K_{3,3}$ and runs $t\le10$ generation steps (edge cap 1500; three random update orders and one canonical order). Table~\ref{tab:class} gives the counts: every planar state observed for a non-minor-preserving rule arose at generation 1, and no minor-preserving rule produced one.
-\begin{table}[ht]\centering\small
+\begin{table*}[t]\centering\small
 \input{generated/tab_class}
 \caption{Classification of closed rules acting on the isolated $K_5$ and $K_{3,3}$ (counts of rules up to renaming). ``inapplicable'': the left side never matches a simple host.}\label{tab:class}
-\end{table}
+\end{table*}
 \paragraph{Selected rules.} Thirteen rules were selected by hand to span the classes before the full run of Section~\ref{sec:exp}: four minor-preserving $\delta_R=0$ rules (F1--F4), three minor-preserving $\delta_R>0$ rules (G1--G3), five non-minor-preserving rules (D1--D5), and $R_c$ (RC; it does not pass the joinability filter and is included as the counterexample of Proposition~\ref{prop:counter}).
-\begin{table}[ht]\centering\small
+\begin{table*}[t]\centering\small
 \input{generated/tab_rules}
 \caption{Selected rules.}\label{tab:rules}
-\end{table}
-\begin{table}[ht]\centering\scriptsize
+\end{table*}
+\begin{table*}[t]\centering\scriptsize
 \input{generated/tab_single}
 \caption{Single defect, cone labelling, selected rules. Runs with $D_1(t)$ non-planar for all $t\le10$ / runs (2D: 4 runs, 3D: 8 runs); smallest $t$ at which $D_1(t)$ is planar in any run; 2D runs in which the global simple graph stays non-planar.}\label{tab:single}
-\end{table}
-\begin{table}[ht]\centering\scriptsize
+\end{table*}
+\begin{table*}[t]\centering\scriptsize
 \input{generated/tab_collision}
 \caption{Collisions at separation 3, cone labelling, selected rules. $\Sigma$-conserved: runs with $\Sigma(t)=\Sigma(0)$ for all $t$ / runs; $\iota_t$: range; $\Delta\Sigma$: range of $\Sigma(t_{\rm end})-\Sigma(0)$.}\label{tab:coll}
-\end{table}
-\begin{table}[ht]\centering\scriptsize
+\end{table*}
+\begin{table*}[t]\centering\scriptsize
 \input{generated/tab_collision_model}
 \caption{As Table~\ref{tab:coll} with minor-model transport (minor-preserving selected rules).}\label{tab:coll_model}
-\end{table}
+\end{table*}
 \paragraph{Global planarity as a witness.} Without any defect, the planar $8\times8$ grid first becomes non-planar (canonical order, generation): \input{generated/control_nonplanar}. So under most rules the rewriting itself creates non-planarity, and the global graph does not isolate the embedded defect; this is observed, not analysed.
 \paragraph{Curvature and growth exponents.} Ollivier--Ricci curvature \citep{ollivier2009} on sampled edges and a ball-growth exponent were also computed for the selected rules. They are not analysed here (they do not bear on a question posed in this paper); the data are in the archive.
-\begin{figure}[ht]\centering
+\begin{figure*}[t]\centering
 \includegraphics[width=\textwidth]{figs/fig_beta1.pdf}
 \caption{Single $K_5$ on the 2D grid, canonical order. Left: global $\beta_1(H_t)$ (log axis). Middle: cone-labelled $\beta_1(D_1(t))$. Right: non-planarity of the cone-labelled $D_1(t)$; the oscillating curves are rules whose cone-labelled subgraph re-absorbs lattice edges.}\label{fig:beta1}
-\end{figure}
+\end{figure*}
 
 \section{Literature search protocol and log}\label{app:lit}
 \paragraph{Protocol.} Searches were run on 16 November 2026. Sources: a general web search tool (English) and, for bibliographic databases, the public APIs of arXiv (Atom API) and INSPIRE-HEP; queries to the zbMATH Open API and to Semantic Scholar failed (HTTP 404/403 and 429) and MathSciNet and Scopus were not accessible. A reference is cited only if its title, authors and venue (or arXiv identifier) were confirmed from a retrieved record; items whose content could not be read are cited with a note. Inclusion criteria: work on (i) particles, defects or non-planar structures in Wolfram-model rewriting; (ii) causal invariance and confluence of hypergraph rewriting; (iii) topological or homological invariants of rewriting states; (iv) braid/ribbon particle models; (v) the graph-theoretic and curvature tools used here. A negative result means ``not found by these queries''.
-\begin{center}\scriptsize
+\begin{table*}[t]\centering\scriptsize
 \begin{tabular}{p{0.4cm}p{5.2cm}p{9.2cm}}
 \toprule
 \# & Query & Outcome\\
@@ -431,12 +446,13 @@ Python 3.13.5, networkx 3.6.1, numpy 2.3.3, scipy 1.16.3 (matplotlib 3.11.2 for 
 12 & Patarroyo post; Summer School 2020 stable-defect project; technical-introduction page & Post exists, content not read; 2020 project not found; page listed by search but not fetchable (DNS failure) and not read.\\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{Literature search log (16 November 2026).}
+\end{table*}
 \noindent MathSciNet, zbMATH and Scopus were not searched, and no citation-chain search of the cited works was made.
 
 \section{Guide to the archive}\label{app:guide}
 Table~\ref{tab:guide} maps the computations of this paper to files of the archive (paths relative to the archive root) and to the scripts that produce them. \texttt{README.md} in the archive repeats the table together with the commands to regenerate every table and figure (\texttt{paper/generated}, \texttt{paper/figs}). Software versions are in Appendix~\ref{app:audit}; all random choices are seeded (global seed 20240601).
-\begin{table}[ht]\centering\scriptsize
+\begin{table*}[t]\centering\scriptsize
 \begin{tabular}{>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{2.1cm}>{\raggedright\arraybackslash}p{4.0cm}>{\raggedright\arraybackslash}p{3.4cm}}
 \toprule
 Item & In this paper & Archive files & Scripts\\
@@ -455,7 +471,7 @@ Tables and figures & all & \path{paper/generated/}; \path{paper/figs/} & \path{a
 \bottomrule
 \end{tabular}
 \caption{Where to find the experimental material (scripts are in \texttt{scripts/} unless a path is given).}\label{tab:guide}
-\end{table}
+\end{table*}
 
 \bibliographystyle{plainnat}
 \bibliography{references}
