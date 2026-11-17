@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this archive, please cite the paper and this archive."
 title: "Code, data and certificates for: Persistence of Non-Planarity under Minimal Binary Graph Rewriting"
 type: software
-version: "1.0.0"
+version: "1.0.1"
 date-released: 2026-11-17
 authors:
   - family-names: "Shetty"
