@@ -1,0 +1,420 @@
+== graph rewriting planarity preserved
+  [openalex] total 10138
+   - 1970 | Ugo Montanari | Separable graphs, planar graphs and web grammars | Information and Control | https://doi.org/10.1016/s0019-9958(70)90135-x | cited 90
+   - 2001 | Stefan Blom | Term Graph Rewriting. Syntax and semantics | Data Archiving and Networked Services (DANS) |  | cited 89
+   - 1987 | Bruno Courcelle | An axiomatic definition of context-free rewriting and its application to NLC graph grammars | Theoretical Computer Science | https://doi.org/10.1016/0304-3975(87)90102-2 | cited 150
+   - 2025 | Luca Mondada | Scaling quantum compilation with graph rewriting | Oxford University Research Archive (ORA) (Universi | https://doi.org/10.5287/ora-pvky10dbm | cited 0
+   - 2016 | Josep Díaz; Olli Pottonen; María Serna | Complexity of metric dimension on planar graphs | Journal of Computer and System Sciences | https://doi.org/10.1016/j.jcss.2016.06.006 | cited 50
+   - 2017 | Simon Vilgertshofer; André Borrmann | Using graph rewriting methods for the semi-automatic generation of parametric infrastructure models | Advanced Engineering Informatics | https://doi.org/10.1016/j.aei.2017.07.003 | cited 47
+   - 2021 | Desmond Coles; Neelav Dutta; Sifan Jiang | Tropically planar graphs | Collectanea mathematica | https://doi.org/10.1007/s13348-021-00335-4 | cited 7
+   - 1997 | Victor D. Chepoi; Michel Marie Deza; Viatcheslav Grishukhin | Clin d'oeil on L1-embeddable planar graphs | Discrete Applied Mathematics | https://doi.org/10.1016/s0166-218x(97)00066-8 | cited 53
+  [arxiv] total ?
+  [crossref] total 274724
+   - 2011 |  | Testing Graph Planarity | Graph Algorithms | 10.1017/cbo9781139015165.011
+   - 2013 | Schaefer | Toward a Theory of Planarity: Hanani-Tutte and Planarity Variants | Journal of Graph Algorithms and Applications | 10.7155/jgaa.00298
+   - None | Lin | Algorithms for testing the planarity of a graph |  | 10.17918/00009739
+   - 2018 |  | Analysis of Graph Rewriting | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch8
+   - 2018 |  | PLANARITY AND KURATOWSKI’S THEOREM | Graph Theory and Its Applications | 10.1201/9780429425134-15
+   - 2006 |  | Planarity Testing | A Java Library of Graph Algorithms and Optimizatio | 10.1201/9781584887195-9
+   - 2018 |  | Parsing Using Graph Rewriting | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch6
+   - 1997 | Makarychev | A short proof of Kuratowski's graph planarity criterion | Journal of Graph Theory | 10.1002/(sici)1097-0118(199706)25:2<129::aid-jgt4>3.0.co;2-o
+  [semanticscholar] no usable response
+== graph transformation planar graphs preserved by rules
+  [openalex] total 20482
+   - 2011 | MohammadHossein Bateni; MohammadTaghi Hajiaghayi; Dániel Marx | Approximation Schemes for Steiner Forest on Planar Graphs and Graphs of Bounded Treewidth | Journal of the ACM | https://doi.org/10.1145/2027216.2027219 | cited 125
+   - 2007 | Igor Fabrici; Tomáš Madaras | The structure of 1-planar graphs | Discrete Mathematics | https://doi.org/10.1016/j.disc.2005.11.056 | cited 161
+   - 2006 | Imre Bárány; Günter Rote | Strictly convex drawings of planar graphs | Documenta Mathematica | https://doi.org/10.4171/dm/214 | cited 79
+   - 1998 | Gunnar W. Klau; Petra Mutzel | Quasi-orthogonal drawing of planar graphs | Max Planck Digital Library |  | cited 42
+   - 1999 | Natalia de Castro; F. J. Cobos; Juan Carlos Dana | Triangle-Free Planar Graphs as Segments Intersection Graphs | Lecture notes in computer science | https://doi.org/10.1007/3-540-46648-7_35 | cited 23
+   - 2016 | Paul Bonsma | Rerouting shortest paths in planar graphs | Discrete Applied Mathematics | https://doi.org/10.1016/j.dam.2016.05.024 | cited 38
+   - 2017 | Emilio Di Giacomo; Giuseppe Liotta; Maurizio Patrignani | Planar k-NodeTrix Graphs: A New Family of Beyond Planar Graphs | Graph Drawing E-print Archive (Die Universität zu  |  | cited 2
+   - 2019 | Tom Hutchcroft; Asaf Nachmias | UNIFORM SPANNING FORESTS OF PLANAR GRAPHS | Forum of Mathematics Sigma | https://doi.org/10.1017/fms.2019.14 | cited 29
+  [arxiv] total ?
+  [crossref] total 1096666
+   - 2011 |  | Planar Graphs | Graph Algorithms | 10.1017/cbo9781139015165.010
+   - 2013 | Horňák; Huang; Wang | On Neighbor-Distinguishing Index of Planar Graphs | Journal of Graph Theory | 10.1002/jgt.21764
+   - 2000 |  | Planar Graphs | Graph Theory | 10.1002/9781118033043.ch4
+   - 2026 |  | Planar Graphs | Essential Graph Theory | 10.1017/9781009559326.009
+   - 2013 | Chaplick; Ueckerdt | Planar Graphs as VPG-Graphs | Journal of Graph Algorithms and Applications | 10.7155/jgaa.00300
+   - 2027 | Samanta; Das | Planar graphs | Graph Theory | 10.1016/b978-0-44-333941-7.00011-1
+   - 1994 |  | Planar Graphs | Graph Coloring Problems | 10.1002/9781118032497.ch2
+   - 2023 | Yadav | Planar Graphs | Advanced Graph Theory | 10.1007/978-3-031-22562-8_3
+  [semanticscholar] no usable response
+== graph transformation minor closed class
+  [openalex] total 51036
+   - 1993 | Seiya Negami; Atsuhiro Nakamoto | Diagonal Transformations of Graphs on Closed Surfaces | Institutional Repositories DataBase (IRDB) |  | cited 76
+   - 2013 | Nestor V. Nestoridis; Dimitrios M. Thilikos | Square roots of minor closed graph classes | Discrete Applied Mathematics | https://doi.org/10.1016/j.dam.2013.05.026 | cited 23
+   - 2026 | Vida Dujmović; Cyril Gavoille; Gwenaël Joret | Adjacency labelling for proper minor-closed graph classes | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2605.06616 | cited 3
+   - 1995 | Carlos Domingo; John S. Shawe-Taylor | Negative Results for Learing Minor Closed Graph Classes | 数理解析研究所講究録 |  | cited 1
+   - 2021 | Dieter Rautenbach; Johannes Redl | Reconfiguring Dominating Sets in Minor-Closed Graph Classes | Graphs and Combinatorics | https://doi.org/10.1007/s00373-021-02341-6 | cited 1
+   - 2017 | Nicolás Bousquet; Arnaud Mary; Aline Parreau | Token Jumping in Minor-Closed Classes | Lecture notes in computer science | https://doi.org/10.1007/978-3-662-55751-8_12 | cited 33
+   - 2008 | Salil Joshi; Barbara König | Applying the Graph Minor Theorem to the Verification of Graph Transformation Systems | Lecture notes in computer science | https://doi.org/10.1007/978-3-540-70545-1_21 | cited 41
+   - 2024 | Ignasi Sau; Giannos Stamoulis; Dimitrios M. Thilikos | Parameterizing the quantification of CMSO: model checking on minor-closed graph classes | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2406.18465 | cited 5
+  [arxiv] total ?
+  [crossref] total 1451445
+   - 2010 | Fomin; Saurabh; Thilikos | Strengthening Erdös-Pósa property for minor-closed graph classes | Journal of Graph Theory | 10.1002/jgt.20503
+   - 2010 | Eppstein | Densities of Minor-Closed Graph Families | The Electronic Journal of Combinatorics | 10.37236/408
+   - 2000 | Eppstein | Diameter and Treewidth in Minor-Closed Graph Families | Algorithmica | 10.1007/s004530010020
+   - 2016 | McDiarmid | On random graphs from a minor-closed class | Random Graphs, Geometry and Asymptotic Structure | 10.1017/cbo9781316479988.005
+   - 2013 | McDiarmid | Random Graphs from a Weighted Minor-Closed Class | The Electronic Journal of Combinatorics | 10.37236/2793
+   - 2008 | Tazari; Müller-Hannemann | A Faster Shortest-Paths Algorithm for Minor-Closed Graph Classes | Lecture Notes in Computer Science | 10.1007/978-3-540-92248-3_32
+   - 2004 | Demaine; Hajiaghayi | Diameter and Treewidth in Minor-Closed Graph Families, Revisited | Algorithmica | 10.1007/s00453-004-1106-1
+   - 2020 | Yuster | A 2()n algorithm for k-cycle in minor-closed graph families | Theoretical Computer Science | 10.1016/j.tcs.2020.07.034
+  [semanticscholar] no usable response
+== graph minor rewriting rule preserves
+  [openalex] total 13549
+   - 2012 | Vincent Danos; Jérôme Ferêt; Walter Fontana | Graphs, Rewriting and Pathway Reconstruction for Rule-Based Models | DROPS (Schloss Dagstuhl – Leibniz Center for Infor | https://doi.org/10.4230/lipics.fsttcs.2012.276 | cited 86
+   - 1995 | Detlef Plump | On termination of graph rewriting | Lecture notes in computer science | https://doi.org/10.1007/3-540-60618-1_68 | cited 33
+   - 2019 | Graham Campbell | Efficient Graph Rewriting | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.1906.05170 | cited 16
+   - 1994 | Richard Banach | Term graph rewriting and garbage collection using opfibrations | Theoretical Computer Science | https://doi.org/10.1016/0304-3975(94)90090-6 | cited 13
+   - 2011 | Andrea Corradini; Frank Drewes | Term Graph Rewriting and Parallel Term Rewriting | Electronic Proceedings in Theoretical Computer Sci | https://doi.org/10.4204/eptcs.48.3 | cited 5
+   - 2003 | Christof Löding; Wolfgang Thomas; Erich Grädel | Infinite graphs generated by tree rewriting | RWTH Publications (RWTH Aachen) |  | cited 36
+   - 2009 | Dragos Florin Sburlan | On Parallel Graph Rewriting Systems | International Journal of Computers Communications  | https://doi.org/10.15837/ijccc.2009.3.2436 | cited 0
+   - 2013 | Mathias Winckel; Ralph Matthes A | On a Dynamic Logic for Graph Rewriting | International Conference on ICT in Education, Rese | https://doi.org/10.55056/ceur-ws.org/vol-1000/icteri-2013-p-506-520-smsv.pdf | cited 0
+  [arxiv] total ?
+  [crossref] total 487200
+   - 2015 | Machado; Ribeiro; Heckel | Rule-based transformation of graph rewriting rules: Towards higher-order graph grammars | Theoretical Computer Science | 10.1016/j.tcs.2015.01.034
+   - 2018 |  | Analysis of Graph Rewriting | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch8
+   - 2018 |  | Parsing Using Graph Rewriting | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch6
+   - 1991 |  | 1 Female Rule, Patriarchal Ideology | Rewriting Shakespeare, Rewriting Ourselves | 10.1525/9780520914995-003
+   - 2002 | Ohlebusch | Graph Rewriting | Advanced Topics in Term Rewriting | 10.1007/978-1-4757-3661-8_9
+   - 2018 |  | Application of Graph Rewriting to Semantic Annotation in a Corpus | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch5
+   - 2002 | Fernández; Mackie | Call-by-Value λ-Graph Rewriting Without Rewriting | Lecture Notes in Computer Science | 10.1007/3-540-45832-8_8
+   - 1995 |  | Graph rewriting systems — The basic concepts | Lecture Notes in Computer Science | 10.1007/bfb0031911
+  [semanticscholar] no usable response
+== double pushout rewriting cycle rank
+  [openalex] total 181
+   - 2026 | Amedeo Altavilla; Maurício Corrêa | Geometry of the Donaldson-Friedman Pushout: Twistor degenerations and instanton charge | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2604.11719 | cited 0
+   - 2011 | Andrea Corradini; Frank Drewes | Term Graph Rewriting and Parallel Term Rewriting | Electronic Proceedings in Theoretical Computer Sci | https://doi.org/10.4204/eptcs.48.3 | cited 5
+   - 2012 | Aleks Kissinger | Pictures of Processes: Automated Graph Rewriting for Monoidal Categories and Applications to Quantum | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.1203.0202 | cited 73
+   - 2022 | Lothar Kolbeck; Simon Vilgertshofer; Jimmy Abualdenien | Graph Rewriting Techniques in Engineering Design | Frontiers in Built Environment | https://doi.org/10.3389/fbuil.2021.815153 | cited 22
+   - 2015 | Vincent Danos; Russ Harmer; Ricardo Honorato-Zimmer | Thermodynamic graph-rewriting | Logical Methods in Computer Science | https://doi.org/10.2168/lmcs-11(2:13)2015 | cited 4
+   - 2016 | Vladimir Zamdzhiev | Rewriting Context-free Families of String Diagrams | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.1705.07520 | cited 7
+   - 2008 | Rachid Echahed | On Term-Graph Rewrite Strategies | Electronic Notes in Theoretical Computer Science | https://doi.org/10.1016/j.entcs.2008.03.056 | cited 1
+   - 2007 | Andrea Corradini; Fabio Gadducci; Wolfram Kahl | Inequational Deduction as Term Graph Rewriting | Electronic Notes in Theoretical Computer Science | https://doi.org/10.1016/j.entcs.2002.09.004 | cited 3
+  [arxiv] total ?
+  [crossref] total 953132
+   - 1997 | Llabrés; Rosselló | Double-pushout hypergraph rewriting using total conformisms | Fundamenta Informaticae | 10.3233/fi-1997-30206
+   - 2020 | Kosiol; Fritsche; Schürr | Double-pushout-rewriting in S-Cartesian functor categories: Rewriting theory and application to part | Journal of Logical and Algebraic Methods in Progra | 10.1016/j.jlamp.2020.100565
+   - 2018 | Löwe | Double-Pushout Rewriting in Context | Lecture Notes in Computer Science | 10.1007/978-3-030-04771-9_32
+   - 2023 | Kosiol; Taentzer | A generalized concurrent rule construction for double-pushout rewriting: Generalized concurrency the | Journal of Logical and Algebraic Methods in Progra | 10.1016/j.jlamp.2022.100820
+   - 2016 | Löwe | Sesqui-Pushout Rewriting with Type Refinements | Lecture Notes in Computer Science | 10.1007/978-3-319-40530-8_2
+   - 2021 | Stünkel; König | Single pushout rewriting in comprehensive systems of graph-like structures | Theoretical Computer Science | 10.1016/j.tcs.2021.07.002
+   - 2021 | Kosiol; Taentzer | A Generalized Concurrent Rule Construction for Double-Pushout Rewriting | Lecture Notes in Computer Science | 10.1007/978-3-030-78946-6_2
+   - 1991 | Broek | Algebraic graph rewriting using a single pushout | Lecture Notes in Computer Science | 10.1007/3-540-53982-4_6
+  [semanticscholar] no usable response
+== graph rewriting first Betti number
+  [openalex] total 2054
+   - 2005 | Mordechai Katzman | Characteristic-independence of Betti numbers of graph ideals | Journal of Combinatorial Theory Series A | https://doi.org/10.1016/j.jcta.2005.04.005 | cited 221
+   - 2025 | Taro Hasui; Tomoyuki Shirai; Satoshi Yabuoku | Enumeration of labeled connected bipartite graphs with given Betti number | Aequationes Mathematicae | https://doi.org/10.1007/s00010-025-01198-x | cited 2
+   - 2026 | Xin Peng; Bing Wang; Zhenjian Wang | Structure of Torus Fibration Under the First Betti Number Restriction | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2605.11552 | cited 1
+   - 2023 | Colleen Delaney; Clément Maria; Eric Samperton | An Algorithm for Tambara-Yamagami Quantum Invariants of 3-Manifolds, Parameterized by the First Bett | HAL | https://doi.org/10.4230/lipics.socg.2025.38 | cited 7
+   - 2026 | Sara Asensio; Ignacio García-Marco; Philippe Giménez | Generalized Andrásfai graphs and special Betti diagrams of edge ideals | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2605.11320 | cited 0
+   - 2023 | Lina Fajardo Gómez; Margherita Maria Ferrari; Nataša Jonoska | Betti Numbers of Prodsimplicial Complexes for Directed Graphs with Applications to Word Reductions | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2305.05818 | cited 0
+   - 2026 | Mohammed Rafiq Namiq | Betti Numbers of Sequentially Cohen–Macaulay Co-Chordal Graphs and Their Applications | New Mathematics and Natural Computation | https://doi.org/10.1142/s1793005729500221 | cited 1
+   - 2014 | Gwyneth Whieldon | Stabilization of Betti tables | Journal of Commutative Algebra | https://doi.org/10.1216/jca-2014-6-1-113 | cited 12
+  [arxiv] total ?
+  [crossref] total 1833506
+   - None | Marzullo | On the periodicity of the first Betti number of the semigroup ring under translations |  | 10.32469/10355/9017
+   - 1966 | Duke | The Genus, Regional Number, and Betti Number of a Graph | Canadian Journal of Mathematics | 10.4153/cjm-1966-081-6
+   - 2023 | Mehta; Saha; Sengupta | Unboundedness of the first Betti number and the last Betti number of numerical semigroups generated  | Indian Journal of Pure and Applied Mathematics | 10.1007/s13226-023-00400-7
+   - 2018 |  | Analysis of Graph Rewriting | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch8
+   - 2015 | Schliebner | On Lorentzian manifolds with highest first Betti number | Annales de l'Institut Fourier | 10.5802/aif.2962
+   - 2018 |  | Parsing Using Graph Rewriting | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch6
+   - 2001 | Apostolov | Bihermitian surfaces with odd first Betti number | Mathematische Zeitschrift | 10.1007/s002090100266
+   - 2015 | Khaksari | Betti number of nilpotent Lie algebras and graph ideals | Asian-European Journal of Mathematics | 10.1142/s1793557115500461
+  [semanticscholar] no usable response
+== hypergraph rewriting topology invariant
+  [openalex] total 788
+   - 2020 | Jonathan Gorard; Manojna Namuduri; Xerxes D. Arsiwalla | ZX-Calculus and Extended Hypergraph Rewriting Systems I: A Multiway Approach to Categorical Quantum  | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2010.02752 | cited 30
+   - 2020 | Timotéo Carletti; Duccio Fanelli; Sara Nicoletti | Dynamical systems on hypergraphs | Journal of Physics Complexity | https://doi.org/10.1088/2632-072x/aba8e1 | cited 131
+   - 2023 | Alessia Antelmi; Gennaro Cordasco; Mirko Polato | A Survey on Hypergraph Representation Learning | ACM Computing Surveys | https://doi.org/10.1145/3605776 | cited 365
+   - 2026 | outail benhadid | S-HYPERGRAPH Ω(7) - NC/SP V3 Self-Rewriting Network with Global Conservation for Sovereign AI Archit | Zenodo (CERN European Organization for Nuclear Res | https://doi.org/10.5281/zenodo.20358968 | cited 0
+   - 2021 | Can Chen; Amit Surana; Anthony M. Bloch | Controllability of Hypergraphs | IEEE Transactions on Network Science and Engineeri | https://doi.org/10.1109/tnse.2021.3068203 | cited 71
+   - 2026 | Abhishek Choudhary | PEDLER: A Deterministic Event–Hypergraph Foundation for Quantum Mechanics, Gravity, and Cosmology | Zenodo (CERN European Organization for Nuclear Res | https://doi.org/10.5281/zenodo.21584269 | cited 0
+   - 2021 | Leonie Neuhäuser; Renaud Lambiotte; Michael T. Schaub | Consensus dynamics on temporal hypergraphs | Physical review. E | https://doi.org/10.1103/physreve.104.064305 | cited 70
+   - 2020 | Raffaella Mulas; Christian Kuehn; Jürgen Jost | Coupled dynamics on hypergraphs: Master stability of steady states and synchronization | Physical review. E | https://doi.org/10.1103/physreve.101.062313 | cited 138
+  [arxiv] total ?
+  [crossref] total 199237
+   - 1970 | Anderson | The e-invariant and the Hopf invariant | Topology | 10.1016/0040-9383(70)90048-0
+   - 2026 | Alexander Bilokon | A Formal Category-Theoretic Model of TRIZ: Su-Field Systems as Typed Hypergraph Rewriting |  | 10.2139/ssrn.6535318
+   - 1997 | Klaus | The ochanine k-invariant is a Brown-Kervaire invariant | Topology | 10.1016/0040-9383(95)00063-1
+   - 2011 | Došen; Petrić | Hypergraph polytopes | Topology and its Applications | 10.1016/j.topol.2011.05.015
+   - 2005 | HIGUCHI | A hypergraph rewriting language and its semantics | Hokkaido Mathematical Journal | 10.14492/hokmj/1285766200
+   - 2024 | Zapata-Carratala; Dietz | HyperMuse: Hypergraph rewriting for real-time musical visualisation (HRRTMV) | Electronic Workshops in Computing | 10.14236/ewic/eva2024.84
+   - 2023 | Milovich | Team games, hypergraph spaces, and projective Boolean algebras | Topology and its Applications | 10.1016/j.topol.2022.108291
+   - 2013 | Iriye; Kishimoto | Hom complexes and hypergraph colorings | Topology and its Applications | 10.1016/j.topol.2013.05.002
+  [semanticscholar] no usable response
+== Wolfram model hypergraph rewriting non-planar
+  [openalex] total 22
+   - 2020 | Jonathan Gorard | Some Relativistic and Gravitational Properties of the Wolfram Model | Complex Systems | https://doi.org/10.25088/complexsystems.29.2.599 | cited 63
+   - 2022 | Bing Yao; Fei Ma | Graph Set-colorings And Hypergraphs In Topological Coding | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2201.13354 | cited 5
+   - 2020 | Jan Kleinnijenhuis; Alissa M. Kleinnijenhuis; Mustafa G. Aydogan | Collatz/Bařina a$n$+b conjecture proofs by 16/64: Cayley a$n$+b tree not Cantor-Gödel-Conway-Wolfram | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2008.13643 | cited 4
+   - 2020 | Stephen Wolfram | A Class of Models with the Potential to Represent Fundamental Physics | Complex Systems | https://doi.org/10.25088/complexsystems.29.1.2 | cited 118
+   - 2016 | Yilin Huang; Alexander Verbraeck; Mamadou Seck | Graph transformation based simulation model generation | Journal of Simulation | https://doi.org/10.1057/jos.2015.21 | cited 8
+   - 2022 | Marcelo M. Amaral; Fang Fang; Raymond Aschheim | On the Emergence of Spacetime and Matter from Model Sets | Preprints.org | https://doi.org/10.20944/preprints202111.0359.v2 | cited 2
+   - 2021 | Marcelo M. Amaral; Fang Fang; Raymond Aschheim | On the Emergence of Spacetime and Matter from Model Sets | Preprints.org | https://doi.org/10.20944/preprints202111.0359.v1 | cited 1
+   - 2023 | Vasiliy S. Usatyuk; Егоров Сергей Иванович; Сапожников Денис Алексеевич | Spherical and Hyperbolic Toric Topology-Based Codes On Graph Embedding for Ising MRF Models: Classic | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2307.15778 | cited 5
+  [arxiv] total ?
+  [crossref] total 5114465
+   - 2026 | Alexander Bilokon | A Formal Category-Theoretic Model of TRIZ: Su-Field Systems as Typed Hypergraph Rewriting |  | 10.2139/ssrn.6535318
+   - 2007 |  | Path Rewriting Cellular Automata | Wolfram Demonstrations Project | 10.3840/07000807
+   - 2007 |  | Path Rewriting Cellular Automata | Wolfram Demonstrations Project | 10.3840/000807
+   - 2007 |  | Named Binary Cartesian 2D String Rewriting Systems | Wolfram Demonstrations Project | 10.3840/07000584
+   - 2007 |  | Named Binary Cartesian 2D String Rewriting Systems | Wolfram Demonstrations Project | 10.3840/000584
+   - 2008 |  | Touching Planar Polycubes | Wolfram Demonstrations Project | 10.3840/003168
+   - 2008 |  | Touching Planar Polycubes | Wolfram Demonstrations Project | 10.3840/08003168
+   - 2005 | HIGUCHI | A hypergraph rewriting language and its semantics | Hokkaido Mathematical Journal | 10.14492/hokmj/1285766200
+  [semanticscholar] no usable response
+== Wolfram model particles topological defects
+  [openalex] total 831
+   - 2021 | René Wittmann; Louis B. G. Cortes; Hartmut Löwen | Particle-resolved topological defects of smectic colloidal liquid crystals in extreme confinement | Nature Communications | https://doi.org/10.1038/s41467-020-20842-5 | cited 45
+   - 1994 | Tanmay Vachaspati | Topological Defects in Cosmology | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.astro-ph/9401039 | cited 9
+   - 1989 | Hardy M. Hodges | Formation of topological defects in phase transitions | Physical review. D. Particles, fields, gravitation | https://doi.org/10.1103/physrevd.39.3557 | cited 20
+   - 1993 | Leandros Perivolaropoulos | Statistics of microwave background fluctuations induced by topological defects | Physical review. D. Particles, fields, gravitation | https://doi.org/10.1103/physrevd.48.1530 | cited 45
+   - 2021 | Giovanni Acquaviva; Alfredo Iorio; L. A. Smaldone | Topologically inequivalent quantizations | Annals of Physics | https://doi.org/10.1016/j.aop.2021.168641 | cited 8
+   - 2007 | Marcus Pivato | Defect particle kinematics in one-dimensional cellular automata | Theoretical Computer Science | https://doi.org/10.1016/j.tcs.2007.03.014 | cited 28
+   - 2008 | John R. Frank; Mehran Kardar A | Defects in nematic membranes can buckle into pseudospheres | Physical Review E | https://doi.org/10.1103/physreve.77.041705 | cited 63
+   - 2018 | Kwang-Eun Kim; Seuri Jeong; Kanghyun Chu | Configurable topological textures in strain graded ferroelectric nanoplates | Nature Communications | https://doi.org/10.1038/s41467-017-02813-5 | cited 130
+  [arxiv] total ?
+  [crossref] total 3784123
+   - 2025 | Altunin | The Ω-Model: Emergent Spacetime from Phase Coherence and Topological Defects |  | 10.2139/ssrn.5740082
+   - 2024 |  |  |  | 10.54499/2024.02437.bd
+   - None | ; Lizunova | Topology, defects, and topological defects |  | 10.33540/82
+   - 2026 | Kranchev | Topological Defects on a Quantum Lattice: A Phenomenological Model of the Mass Spectrum |  | 10.24108/preprints-3116430
+   - 1997 | Brandenberger | Inflation, topological defects and baryogenesis: Selected topics at the interface between particles  | AIP Conference Proceedings | 10.1063/1.53261
+   - 1998 | Signore; Melchiorri | Topological Defects in Cosmology | Topological Defects in Cosmology | 10.1142/9789814529723
+   - 2016 | Jusufi | Dirac particles tunneling from black holes with topological defects | General Relativity and Gravitation | 10.1007/s10714-016-2101-y
+   - 2026 | Li | A Conditional Reconstruction Model of the Dark Sector: Symmetry, Topological Defects, and Invariant  |  | 10.20944/preprints202610.1668.v1
+  [semanticscholar] no usable response
+== hypergraph rewriting homology
+  [openalex] total 273
+   - 2026 | Robert Green | Categories, Homology and Sheaves for Hypergraphs | Scholars Archive - University at Albany (Universit |  | cited 0
+   - 2020 | Xavier Ouvrard | Hypergraphs: an introduction and review | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2002.05014 | cited 85
+   - 2021 | Jean-Gabriel Young; Giovanni Petri; Tiago P. Peixoto | Hypergraph reconstruction from network data | Communications Physics | https://doi.org/10.1038/s42005-021-00637-w | cited 160
+   - 2021 | Leonie Neuhäuser; Renaud Lambiotte; Michael T. Schaub | Consensus dynamics on temporal hypergraphs | Physical review. E | https://doi.org/10.1103/physreve.104.064305 | cited 70
+   - 2025 | Christian Kuehn; Murphy, Fergal | Simplicial Complex Emergence on Directed Hypergraphs | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2512.00043 | cited 0
+   - 2022 | Leonie Neuhäuser; Renaud Lambiotte; Michael T. Schaub | Consensus Dynamics and Opinion Formation on Hypergraphs | Understanding complex systems | https://doi.org/10.1007/978-3-030-91374-8_14 | cited 43
+   - 2024 | Michael P. H. Stumpf | Hypergraph animals | Physical review. E | https://doi.org/10.1103/physreve.110.044125 | cited 0
+   - 2023 | Tarek Emmrich; Martina Juhnke‐Kubitzke; Stefan Kunis | Sparse signals on hypergraphs | PAMM | https://doi.org/10.1002/pamm.202200171 | cited 1
+  [arxiv] total 0
+  [crossref] total 47393
+   - 2024 | Bi; Li; Wu | The magnitude homology of a hypergraph | Homology, Homotopy and Applications | 10.4310/hha.2024.v26.n2.a16
+   - 2025 |  | Homology of Categories | Polygraphs: From Rewriting to Higher Categories | 10.1017/9781009498968.036
+   - 2025 |  | Complexes and Homology | Polygraphs: From Rewriting to Higher Categories | 10.1017/9781009498968.035
+   - 2026 | Alexander Bilokon | A Formal Category-Theoretic Model of TRIZ: Su-Field Systems as Typed Hypergraph Rewriting |  | 10.2139/ssrn.6535318
+   - 2025 |  | Homology of ω-Categories | Polygraphs: From Rewriting to Higher Categories | 10.1017/9781009498968.028
+   - 1991 | Parks; Lipscomb | Homology and Hypergraph Acyclicity: A Combinatorial Invariant For Hypergraphs |  | 10.21236/ada241584
+   - 2005 | HIGUCHI | A hypergraph rewriting language and its semantics | Hokkaido Mathematical Journal | 10.14492/hokmj/1285766200
+   - 2024 | Zapata-Carratala; Dietz | HyperMuse: Hypergraph rewriting for real-time musical visualisation (HRRTMV) | Electronic Workshops in Computing | 10.14236/ewic/eva2024.84
+  [semanticscholar] no usable response
+== preservation of graph properties under graph transformation
+  [openalex] total 77732
+   - 2006 | Arend Rensink; Dino Distefano | Abstract Graph Transformation | Electronic Notes in Theoretical Computer Science | https://doi.org/10.1016/j.entcs.2006.01.022 | cited 81
+   - 2012 | Eduardo Zambon | Abstract graph transformation |  | https://doi.org/10.3990/1.9789036534772 | cited 23
+   - 2006 | Tom Mens; Pieter M. E. Van Gorp; Dániel Varró | Applying a Model Transformation Taxonomy to Graph Transformation Technology | Electronic Notes in Theoretical Computer Science | https://doi.org/10.1016/j.entcs.2005.10.022 | cited 105
+   - 2002 | Michel Wermelinger B; José Luiz Fiadeiro | A graph transformation approach to software architecture reconfiguration | Science of Computer Programming | https://doi.org/10.1016/s0167-6423(02)00036-9 | cited 137
+   - 2007 | Iovka Boneva; Arend Rensink; Marcos E. Kurbán | Graph Abstraction and Abstract Graph Transformation | University of Twente Research Information |  | cited 18
+   - 2021 | Jens Kosiol; Daniel Strüber; Gabriele Taentzer | Sustaining and improving graduated graph consistency: A static analysis of graph transformations | Science of Computer Programming | https://doi.org/10.1016/j.scico.2021.102729 | cited 25
+   - 2025 | Syuhaimi Ab.Rahman Mohammad | Fuzzy Line Graphs and Their Extensions: Mathematical Properties and Applications | International Journal of Apllied Mathematics | https://doi.org/10.12732/ijam.v38i7s.498 | cited 2
+   - 2024 | Tingxiang Ji; Jianqing Liu; Zheshen Zhang | Distributing Arbitrary Quantum Graph States by Graph Transformation | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2404.05537 | cited 10
+  [arxiv] total ?
+  [crossref] total 4443514
+   - 2024 | Grace Zacharia; Suresh Singh | Edge Augmentation in Graphs: Graph Transformation of G to G* Under Specified Condition and Resultant | International Journal of Science and Research (IJS | 10.21275/sr24827222001
+   - 1997 | COURCELLE | THE EXPRESSION OF GRAPH PROPERTIES AND GRAPH TRANSFORMATIONS IN MONADIC SECOND-ORDER LOGIC | Handbook of Graph Grammars and Computing by Graph  | 10.1142/9789812384720_0005
+   - 2026 | Odabaşi; Roberts; Low | Preservation of the
+                    <i>
+                      \mathbb{Z}
+                      < | Discussiones Mathematicae Graph Theory | 10.7151/dmgt.2628
+   - 2014 | Lambers; Orejas | Tableau-Based Reasoning for Graph Properties | Lecture Notes in Computer Science | 10.1007/978-3-319-09108-2_2
+   - None |  | Graph Transformation Systems | Monographs in Theoretical Computer Science. An EAT | 10.1007/3-540-31188-2_3
+   - 2014 | Poskitt; Plump | Verifying Monadic Second-Order Properties of Graph Programs | Lecture Notes in Computer Science | 10.1007/978-3-319-09108-2_3
+   - None |  | Typed Attributed Graph Transformation Systems | Monographs in Theoretical Computer Science. An EAT | 10.1007/3-540-31188-2_9
+   - 2014 | Selim; Lúcio; Cordy | Specification and Verification of Graph-Based Model Transformation Properties | Lecture Notes in Computer Science | 10.1007/978-3-319-09108-2_8
+  [semanticscholar] no usable response
+== graph grammar planarity
+  [openalex] total 4747
+   - 1970 | Ugo Montanari | Separable graphs, planar graphs and web grammars | Information and Control | https://doi.org/10.1016/s0019-9958(70)90135-x | cited 90
+   - 2011 | Pradeep Radhakrishnan; Matthew I. Campbell | A Graph Grammar Based Scheme for Generating and Evaluating Planar Mechanisms | Springer eBooks | https://doi.org/10.1007/978-94-007-0510-4_35 | cited 11
+   - 2010 | Pradeep Radhakrishnan | A graph grammar scheme for representing and evaluating planar mechanisms | Texas ScholarWorks (Texas Digital Library) |  | cited 0
+   - 1969 | G. Ugo Montanari | SEPARABLE GRAPHS, PLANAR GRAPHS AND WEB GRAMMARS | Defense Technical Information Center (DTIC) | https://doi.org/10.21236/ad0691826 | cited 5
+   - 2026 | Nicolas Hochuli; Lorenzo Miele; Kristina Shea | Constrained Goal-directed Planar Graph Generation with Grammar-based Reinforcement Learning | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2610.06244 | cited 0
+   - 1972 | T. Pavlidis | Linear and Context-Free Graph Grammars | Journal of the ACM | https://doi.org/10.1145/321679.321682 | cited 134
+   - 1981 | D. Janssens; Grzegorz Rozenberg | Decision problems for node label controlled graph grammars | Journal of Computer and System Sciences | https://doi.org/10.1016/0022-0000(81)90025-8 | cited 40
+   - 2008 | Guillaume Chapuy; Éric Fusy; Mihyun Kang | A Complete Grammar for Decomposing a Family of Graphs into 3-Connected Components | The Electronic Journal of Combinatorics | https://doi.org/10.37236/872 | cited 48
+  [arxiv] total 0
+  [crossref] total 297019
+   - 2011 |  | Testing Graph Planarity | Graph Algorithms | 10.1017/cbo9781139015165.011
+   - 2013 | Schaefer | Toward a Theory of Planarity: Hanani-Tutte and Planarity Variants | Journal of Graph Algorithms and Applications | 10.7155/jgaa.00298
+   - None | Lin | Algorithms for testing the planarity of a graph |  | 10.17918/00009739
+   - 2018 |  | PLANARITY AND KURATOWSKI’S THEOREM | Graph Theory and Its Applications | 10.1201/9780429425134-15
+   - 2006 |  | Planarity Testing | A Java Library of Graph Algorithms and Optimizatio | 10.1201/9781584887195-9
+   - 1997 | Makarychev | A short proof of Kuratowski's graph planarity criterion | Journal of Graph Theory | 10.1002/(sici)1097-0118(199706)25:2<129::aid-jgt4>3.0.co;2-o
+   - 2013 | Schaefer | Toward a Theory of Planarity: Hanani-Tutte and Planarity Variants | Lecture Notes in Computer Science | 10.1007/978-3-642-36763-2_15
+   - 2021 | Saoub | Planarity | Graph Theory | 10.1201/9781138361416-7
+  [semanticscholar] no usable response
+== graph grammars Kuratowski
+  [openalex] total 151
+   - 2025 | Samuel Humeau | Structures and equations of sourced graphs : small treewidth and disjoint paths | theses.fr (ABES) | https://doi.org/10.70675/55d9abf2z417dz4093zaa7ez5ffdd998befc | cited 0
+   - 1980 | Fred G. Abramson; Yuri J. Breitbart; F. D. Lewis | Complex Properties of Grammars | Journal of the ACM | https://doi.org/10.1145/322203.322210 | cited 0
+   - 1994 | Satoshi Kobayashi; Takashi Yokomori | Modeling RNA Secondary Structures Using Tree Grammars |  | https://doi.org/10.11234/gi1990.5.29 | cited 17
+   - 2008 | Salil Joshi; Barbara König | Applying the Graph Minor Theorem to the Verification of Graph Transformation Systems | Lecture notes in computer science | https://doi.org/10.1007/978-3-540-70545-1_21 | cited 41
+   - 2015 | Fabian Lothar Walter Reiter | Distributed Graph Automata | ACM/IEEE Symposium on Logic in Computer Science (L | https://doi.org/10.1109/lics.2015.27 | cited 40
+   - 2011 | Dániel Marx; Ildikó Schlotter | Obtaining a Planar Graph by Vertex Deletion | Algorithmica | https://doi.org/10.1007/s00453-010-9484-z | cited 101
+   - 2013 | Kosta Došen; Zoran Petrić | Graphs of plural cuts | Theoretical Computer Science | https://doi.org/10.1016/j.tcs.2013.02.001 | cited 5
+   - 2011 | Daniela Genova; Nataša Jonoska | Forbidding and enforcing on graphs | Theoretical Computer Science | https://doi.org/10.1016/j.tcs.2011.12.029 | cited 6
+  [arxiv] total 0
+  [crossref] total 231595
+   - None | Engelfriet; Rozenberg | Graph grammars based on node rewriting: an introduction to NLC graph grammars | Lecture Notes in Computer Science | 10.1007/bfb0017374
+   - 1980 |  | Kazimierz Kuratowski | Journal of Graph Theory | 10.1002/jgt.3190040402
+   - None | Nagl | On graph rewriting systems (Graph-Grammars) | Lecture Notes in Computer Science | 10.1007/bfb0000123
+   - 1997 | ENGELFRIET; ROZENBERG | NODE REPLACEMENT GRAPH GRAMMARS | Handbook of Graph Grammars and Computing by Graph  | 10.1142/9789812384720_0001
+   - None | Bunke | Programmed graph grammars | Lecture Notes in Computer Science | 10.1007/bfb0025718
+   - None | Ehrig | Aspects of concurrency in graph grammars | Lecture Notes in Computer Science | 10.1007/bfb0000099
+   - None | Ehrig; Parisi-Presicce | Algebraic specification grammars: A junction between module specifications and graph grammars | Lecture Notes in Computer Science | 10.1007/bfb0017396
+   - None | Ollongren | On multilevel — Graph grammars | Lecture Notes in Computer Science | 10.1007/bfb0025731
+  [semanticscholar] no usable response
+== local graph rewriting minor theory
+  [openalex] total 21194
+   - 2012 | Vincent Danos; Jérôme Ferêt; Walter Fontana | Graphs, Rewriting and Pathway Reconstruction for Rule-Based Models | DROPS (Schloss Dagstuhl – Leibniz Center for Infor | https://doi.org/10.4230/lipics.fsttcs.2012.276 | cited 86
+   - 2019 | Graham Campbell | Efficient Graph Rewriting | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.1906.05170 | cited 16
+   - 2003 | Christof Löding; Wolfgang Thomas; Erich Grädel | Infinite graphs generated by tree rewriting | RWTH Publications (RWTH Aachen) |  | cited 36
+   - 2011 | Andrea Corradini; Frank Drewes | Term Graph Rewriting and Parallel Term Rewriting | Electronic Proceedings in Theoretical Computer Sci | https://doi.org/10.4204/eptcs.48.3 | cited 5
+   - 1993 | Igor Litovsky; Yves Métivier | Computing with graph rewriting systems with priorities | Theoretical Computer Science | https://doi.org/10.1016/0304-3975(93)90116-b | cited 25
+   - 1987 | Bruno Courcelle | An axiomatic definition of context-free rewriting and its application to NLC graph grammars | Theoretical Computer Science | https://doi.org/10.1016/0304-3975(87)90102-2 | cited 150
+   - 2013 | Lucas Dixon; Aleks Kissinger | Open-graphs and monoidal theories | Mathematical Structures in Computer Science | https://doi.org/10.1017/s0960129512000138 | cited 61
+   - 2003 | Manfred Münch | Generic Modelling with Graph Rewriting Systems | RWTH Publications (RWTH Aachen) |  | cited 9
+  [arxiv] total ?
+  [crossref] total 3038305
+   - 2010 | Gonçalves | On vertex partitions and some minor-monotone graph parameters | Journal of Graph Theory | 10.1002/jgt.20490
+   - 2012 | Ding | A Characterization of Graphs with No Octahedron Minor | Journal of Graph Theory | 10.1002/jgt.21699
+   - 1999 | Diestel; K�hn | A universal planar graph under the minor relation | Journal of Graph Theory | 10.1002/(sici)1097-0118(199910)32:2<191::aid-jgt8>3.0.co;2-i
+   - 1996 | Corradini | Concurrent graph and term graph rewriting | Lecture Notes in Computer Science | 10.1007/3-540-61604-7_69
+   - 1999 | Maharry | An excluded minor theorem for the octahedron | Journal of Graph Theory | 10.1002/(sici)1097-0118(199906)31:2<95::aid-jgt2>3.3.co;2-e
+   - 1999 | Maharry | An excluded minor theorem for the octahedron | Journal of Graph Theory | 10.1002/(sici)1097-0118(199906)31:2<95::aid-jgt2>3.0.co;2-n
+   - 2010 | Fomin; Saurabh; Thilikos | Strengthening Erdös-Pósa property for minor-closed graph classes | Journal of Graph Theory | 10.1002/jgt.20503
+   - 2018 |  | Analysis of Graph Rewriting | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch8
+  [semanticscholar] no usable response
+== edge replacement grammar planar graphs
+  [openalex] total 623
+   - 1988 | Hartmut Ehrig; Manfred Nagl; Grzegorz Rozenberg | Graph Grammars and Their Application to Computer Science: 3rd International Workshop Warrenton, Virg |  |  | cited 391
+   - 2025 | Radu Iosif; Arnaud Sangnier; Neven Villani | Verifying Parameterized Networks Specified by Vertex-Replacement Graph Grammars | Lecture notes in computer science | https://doi.org/10.1007/978-3-032-00347-8_4 | cited 1
+   - 1996 | Mohamed Mosbah | Probabilistic hyperedge replacement grammars | Theoretical Computer Science | https://doi.org/10.1016/0304-3975(95)00202-2 | cited 3
+   - 2018 | Fabian Peternek | Graph compression using graph grammars | ERA |  | cited 1
+   - 2016 | Franz Josef Brandenburg | Recognizing Optimal 1-Planar Graphs in Linear Time | Algorithmica | https://doi.org/10.1007/s00453-016-0226-8 | cited 53
+   - 2012 | Rémi Eyraud; Jean-Christophe Janodet; Tim Oates | Learning Substitutable Binary Plane Graph Grammars | HAL |  | cited 4
+   - 2008 | Ludovico Franco | Graph Theory and Universal Grammar | Florence Research (University of Florence) |  | cited 2
+   - 1987 | Bruno Courcelle | An axiomatic definition of context-free rewriting and its application to NLC graph grammars | Theoretical Computer Science | https://doi.org/10.1016/0304-3975(87)90102-2 | cited 150
+  [arxiv] total ?
+  [crossref] total 712865
+   - None | Zhang | Edge colorings of planar graphs |  | 10.3990/1.9789036558716
+   - 2020 | Liotta; Montecchiani | Edge Partitions and Visibility Representations of 1-planar Graphs | Beyond Planar Graphs | 10.1007/978-981-15-6533-5_6
+   - 2017 | Hu; Wu; Yang | On the Equitable Edge-Coloring of 1-Planar Graphs and Planar Graphs | Graphs and Combinatorics | 10.1007/s00373-017-1786-3
+   - 2026 | Van Cleemput; Zamfirescu | Edge-Kempe Classes in Planar Regular Graphs | Graphs and Combinatorics | 10.1007/s00373-026-03060-6
+   - 1997 | Barnette | Cycle Covers of Planar 2-Edge-Connected Graphs | Graphs and Combinatorics | 10.1007/bf03353010
+   - 2014 | Cai | List Edge Coloring of Planar Graphs Without Non-Induced 6-Cycles | Graphs and Combinatorics | 10.1007/s00373-014-1420-6
+   - 2022 | Hasanvand | The Existence of Planar 4-Connected Essentially 6-Edge-Connected Graphs with No Claw-Decompositions | Graphs and Combinatorics | 10.1007/s00373-022-02594-9
+   - 2025 | Nelson; Yu | Planar Graphs with Ore-degree at Most seven is strongly $13$-edge-colorable |  | 10.2139/ssrn.5649232
+  [semanticscholar] no usable response
+== graph rewriting K5 K3,3 subdivision
+  [openalex] total 5
+   - 2026 | Christophe Paul; Evangelos Protopapas; Dimitrios M. Thilikos | An overview of universal obstructions for graph parameters | Discrete Applied Mathematics | https://doi.org/10.1016/j.dam.2026.05.029 | cited 16
+   - 2021 | Krisn Pratap Meena | An Introduction to Graph Theory and its Applications | CENTRAL ASIAN JOURNAL OF MATHEMATICAL THEORY AND C | https://doi.org/10.51699/cajmtcs.v2i12.174 | cited 0
+   - 2002 | Erik D. Demaine; MohammadTaghi Hajiaghayi; Dimitrios M. Thilikos | Exponential Speedup of Fixed-Parameter Algorithms on K 3,3-Minor-Free or K 5-Minor-Free Graphs | Lecture notes in computer science | https://doi.org/10.1007/3-540-36136-7_24 | cited 25
+   - 2011 | Marc Noy | El gran teorema de la combinatòria moderna | Butlletí de la Societat Catalana de Matemàtiques | https://doi.org/10.2436/bscm.v0i0.60046 | cited 1
+   - 2021 | Christian Doczkal | A Variant of Wagner’s Theorem Based on Combinatorial Hypermaps | DROPS (Schloss Dagstuhl – Leibniz Center for Infor | https://doi.org/10.4230/lipics.itp.2021.17 | cited 2
+  [arxiv] total ?
+  [crossref] total 254032
+   - None |  |  |  | 10.1107/s2053229624001293/dg3051sup1.cif
+   - 2010 | Spicher; Michel; Giavitto | Declarative Mesh Subdivision Using Topological Rewriting in MGS | Lecture Notes in Computer Science | 10.1007/978-3-642-15928-2_20
+   - 2018 |  | Analysis of Graph Rewriting | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch8
+   - 2018 |  | Parsing Using Graph Rewriting | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch6
+   - 1974 | Szmid; Wieteska | α-particle implantation damage in silicon | Physica Status Solidi (a) | 10.1002/pssa.2210230140
+   - 2002 | Ohlebusch | Graph Rewriting | Advanced Topics in Term Rewriting | 10.1007/978-1-4757-3661-8_9
+   - 2018 | Chen; Hu; Cui | Shikonin, vitamin K3 and vitamin K5 inhibit multiple glycolytic enzymes in MCF-7 cells | Oncology Letters | 10.3892/ol.2018.8251
+   - 2018 |  | Application of Graph Rewriting to Semantic Annotation in a Corpus | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch5
+  [semanticscholar] no usable response
+== graph rewriting dynamic graphs planarity maintenance
+  [openalex] total 892
+   - 2023 | Radoslav Dimitrov; Zeyang Zhao; Ralph Abboud | PlanE: Representation Learning over Planar Graphs | neural information processing systems | https://doi.org/10.52202/075280-0705 | cited 10
+   - 2019 | Gramoz Goranci | Dynamic Graph Algorithms and Graph Sparsification: New Techniques and Connections | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.1909.06413 | cited 9
+   - 2014 | Andrey Y. Lokhov | Dynamic cavity method and problems on graphs | theses.fr (ABES) | https://doi.org/10.70675/7e2a6afez623az4615z90e2z92ea2aeed39f | cited 6
+   - 2013 | Christophe Hurter; Ozan Ersoy; Alexandru  Cristian Telea | Smooth bundling of large streaming and sequence graphs | IEEE Pacific Visualization Symposium | https://doi.org/10.1109/pacificvis.2013.6596126 | cited 35
+   - 2024 | Amir Kafshdar Goharshady; Chun Kit Lam; Lionel Parreaux | Fast and Optimal Extraction for Sparse Equality Graphs | Proceedings of the ACM on Programming Languages | https://doi.org/10.1145/3689801 | cited 24
+   - 2021 | Jun Sheng Cheng; Shusheng Bi; Yuan Chang | A Graph Theory-Based Method for Dynamic Modeling and Parameter Identification of 6-DOF Industrial Ro | Applied Sciences | https://doi.org/10.3390/app112210988 | cited 7
+   - 2022 | Marc Demange; Alessia Di Fonso; Gabriele Di Stefano | A graph theoretical approach to the firebreak locating problem | Theoretical Computer Science | https://doi.org/10.1016/j.tcs.2022.02.012 | cited 8
+   - 2018 | Renata Vaderna; Željko Vuković; Igor Dejanović | Graph Drawing and Analysis Library and Its Domain-Specific Language for Graphs’ Layout Specification | Scientific Programming | https://doi.org/10.1155/2018/7264060 | cited 4
+  [arxiv] total ?
+  [crossref] total 1435968
+   - 2023 | Liu; Yan | Weak-Dynamic Coloring of Graphs Beyond-Planarity | Graphs and Combinatorics | 10.1007/s00373-023-02733-w
+   - 2018 |  | Graphs, Patterns and Rewriting | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch7
+   - 1998 | Archdeacon; S?r�n? | Characterizing planarity using theta graphs | Journal of Graph Theory | 10.1002/(sici)1097-0118(199801)27:1<17::aid-jgt4>3.0.co;2-j
+   - 2008 |  | Planarity and Crossing Number | Topics in Graph Theory | 10.1201/b10613-7
+   - 2014 | Eppstein | Drawing Arrangement Graphs In Small Grids, Or How To Play Planarity | Journal of Graph Algorithms and Applications | 10.7155/jgaa.00319
+   - 2021 | Matsumoto; Suzuki | Non 1-planarity of lexicographic products of graphs | Discussiones Mathematicae Graph Theory | 10.7151/dmgt.2231
+   - 2026 | Bastien; Khormali | On the regularity, planarity and edge bounds of link-irregular graphs | Discussiones Mathematicae Graph Theory | 10.7151/dmgt.2619
+   - 1981 | Kelmans | A new planarity criterion for 3‐connected graphs | Journal of Graph Theory | 10.1002/jgt.3190050307
+  [semanticscholar] no usable response
+== monadic second order logic graph transformation minors
+  [openalex] total 1109
+   - 1990 | Bruno Courcelle | The monadic second-order logic of graphs. I. Recognizable sets of finite graphs | Information and Computation | https://doi.org/10.1016/0890-5401(90)90043-h | cited 1967
+   - 1992 | Bruno Courcelle | The monadic second-order logic of graphs III : tree-decompositions, minors and complexity issues | RAIRO - Theoretical Informatics and Applications | https://doi.org/10.1051/ita/1992260302571 | cited 229
+   - 2007 | Bruno Courcelle | Circle graphs and monadic second-order logic | Journal of Applied Logic | https://doi.org/10.1016/j.jal.2007.05.001 | cited 34
+   - 1994 | Bruno Courcelle | Monadic second-order definable graph transductions: a survey | Theoretical Computer Science | https://doi.org/10.1016/0304-3975(94)90268-2 | cited 274
+   - 2005 | Bruno Courcelle | The monadic second-order logic of graphs XV: On a conjecture by D. Seese | Journal of Applied Logic | https://doi.org/10.1016/j.jal.2005.08.004 | cited 34
+   - 1991 | Bruno Courcelle | The monadic second-order logic of graphs V: on closing the gap between definability and recognizabil | Theoretical Computer Science | https://doi.org/10.1016/0304-3975(91)90387-h | cited 151
+   - 2006 | Bruno Courcelle | The monadic second-order logic of graphs XVI : Canonical graph decompositions | Logical Methods in Computer Science | https://doi.org/10.2168/lmcs-2(2:2)2006 | cited 29
+   - 2009 | Jonathan D. Adler | Graph Decompositions and Monadic Second Order Logic | Digital WPI |  | cited 0
+  [arxiv] total ?
+  [crossref] total 2121973
+   - 2012 |  | Monadic second-order logic | Graph Structure and Monadic Second-Order Logic | 10.1017/cbo9780511977619.007
+   - 1993 | Courcelle | Graph grammars, monadic second-order logic and the theory of graph minors | Contemporary Mathematics | 10.1090/conm/147/01200
+   - 2012 |  | Monadic second-order transductions | Graph Structure and Monadic Second-Order Logic | 10.1017/cbo9780511977619.009
+   - 1997 | COURCELLE | THE EXPRESSION OF GRAPH PROPERTIES AND GRAPH TRANSFORMATIONS IN MONADIC SECOND-ORDER LOGIC | Handbook of Graph Grammars and Computing by Graph  | 10.1142/9789812384720_0005
+   - 2012 |  | Overview | Graph Structure and Monadic Second-Order Logic | 10.1017/cbo9780511977619.003
+   - 2012 |  | References | Graph Structure and Monadic Second-Order Logic | 10.1017/cbo9780511977619.013
+   - 2012 |  | Introduction | Graph Structure and Monadic Second-Order Logic | 10.1017/cbo9780511977619.002
+   - 2012 |  | Graph algebras and widths of graphs | Graph Structure and Monadic Second-Order Logic | 10.1017/cbo9780511977619.004
+  [semanticscholar] no usable response
+== homeomorphic embedding graph rewriting well-quasi-order
+  [openalex] total 882
+   - 1989 | Robin Thomas | Well-Quasi-Ordering Infinite Graphs with Forbidden Finite Planar Minor | Transactions of the American Mathematical Society | https://doi.org/10.1090/s0002-9947-1989-0932450-9 | cited 46
+   - 2001 | Stefan Blom | Term Graph Rewriting. Syntax and semantics | Data Archiving and Networked Services (DANS) |  | cited 89
+   - 2020 | María Alpuente; Angel Cuenca-Ortega; Santiago Escobar | Order-sorted Homeomorphic Embedding Modulo Combinations of Associativity and/or Commutativity Axioms | Fundamenta Informaticae | https://doi.org/10.3233/fi-2020-1991 | cited 8
+   - 1997 | Detlef Plump | Simplification orders for term graph rewriting | Lecture notes in computer science | https://doi.org/10.1007/bfb0029989 | cited 20
+   - 2008 | Jason A. Behrstock; Walter D. Neumann | Quasi-isometric classification of graph manifold groups | Duke Mathematical Journal | https://doi.org/10.1215/s0012-7094-08-14121-3 | cited 87
+   - 2019 | Carolyn Chun; Iain Moffatt; Steven D. Noble | Matroids, delta-matroids and embedded graphs | Journal of Combinatorial Theory Series A | https://doi.org/10.1016/j.jcta.2019.02.023 | cited 85
+   - 2019 | Jean Goubault-Larrecq; Simon Halfon; Prateek Karandikar | The Ideal Approach to Computing Closed Subsets in Well-Quasi-Ordering | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.1904.10703 | cited 3
+   - 2019 | Stephen A. Huggett; Iain Moffatt | Types of embedded graphs and their Tutte polynomials | Mathematical Proceedings of the Cambridge Philosop | https://doi.org/10.1017/s0305004119000161 | cited 13
+  [arxiv] total ?
+  [crossref] total 1352386
+   - 2024 | Ironmonger; Ruškuc | Decidability of Well Quasi-Order and Atomicity for Equivalence Relations Under Embedding Orderings | Order | 10.1007/s11083-024-09659-9
+   - None | Janssens; Rozenberg | Graph grammars with node-label controlled rewriting and embedding | Lecture Notes in Computer Science | 10.1007/bfb0000107
+   - 1996 | Klop | Term graph rewriting | Lecture Notes in Computer Science | 10.1007/3-540-61254-8_16
+   - 2017 | Huczynska; Ruškuc | On well quasi-order of graph classes under homomorphic image orderings | European Journal of Combinatorics | 10.1016/j.ejc.2017.03.008
+   - 1985 | Pouzet | Applications of Well Quasi-Ordering and Better Quasi-Ordering | Graphs and Order | 10.1007/978-94-009-5315-4_15
+   - 2010 | Daligault; Rao; Thomassé | Well-Quasi-Order of Relabel Functions | Order | 10.1007/s11083-010-9174-0
+   - 2018 |  | Analysis of Graph Rewriting | Application of Graph Rewriting to Natural Language | 10.1002/9781119428589.ch8
+   - 2020 | Alpuente; Cuenca-Ortega; Escobar | Order-sorted Homeomorphic Embedding Modulo Combinations of Associativity and/or Commutativity Axioms | Fundamenta Informaticae | 10.3233/fi-2020-1991
+  [semanticscholar] no usable response
+== rewriting of graphs and cyclomatic number
+  [openalex] total 581
+   - 2018 | Takayuki Hibi; Aki Mori; Hidefumi Ohsugi | The number of $4$-cycles and the cyclomatic number of a finite simple graph | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.1801.06169 | cited 0
+   - 2024 | Marat Bagaev; Alisa Khabibrakhmanova; Georgy Sabaev | The Impact of Mutability on Cyclomatic Complexity in Java | arXiv (Cornell University) | https://doi.org/10.48550/arxiv.2410.10425 | cited 3
+   - 2003 | Bojana Borovićanin; Stefan Grünewald; İvan Gutman | Harmonic graphs with small number of cycles | Discrete Mathematics | https://doi.org/10.1016/s0012-365x(02)00620-9 | cited 27
+   - 2025 | V Siahaan; H Ginting; M Amri | Cyclomatic Complexity and Maintainability in Modern Software: A Systematic Review | Journal of Data Science Technology and Computer Sc | https://doi.org/10.63703/distances.v5i1.83 | cited 6
+   - 2018 | Geoffrey K. Gill; Chris F. Kemerer | Cyclomatic Complexity Metrics Revisited: An Empirical Study of Software Development and Maintenance | DSpace@MIT (Massachusetts Institute of Technology) |  | cited 7
+   - 2023 | Mert Sinan Öz; İsmail Naci Cangül | A survey of the maximal and the minimal nullity in terms of omega invariant on graphs | Acta Universitatis Sapientiae Mathematica | https://doi.org/10.2478/ausm-2023-0019 | cited 2
+   - 2005 | Alan D. Sokal | The multivariate Tutte polynomial (alias Potts model) for graphs and matroids | Cambridge University Press eBooks | https://doi.org/10.1017/cbo9780511734885.009 | cited 391
+   - 2024 | Zhuang Xiong | The nullity of the net Laplacian matrix of a signed graph | American Journal of Combinatorics | https://doi.org/10.63151/amjc.v3i.15 | cited 1
+  [arxiv] total ?
+  [crossref] total 550340
+   - 1973 |  | WITHDRAWN: Chapter 2 Cyclomatic Number | North-Holland Mathematical Library | 10.1016/s0924-6509(09)70332-0
+   - 2023 | Jing; Zhang; Ji | The Zero Forcing Number of Graphs with the Matching Number and the Cyclomatic Number | Graphs and Combinatorics | 10.1007/s00373-023-02664-6
+   - 2026 | Hua | The Sombor Index of Connected Graphs with Given Repetition Number and Cyclomatic Number | Axioms | 10.3390/axioms15100757
+   - 2025 |  | Degree-based function index of graphs with given bipartition and small cyclomatic number | Discrete Mathematics Letters | 10.47443/dml.2024.179
+   - 2022 | Ali; Das; Akhter | On the extremal graphs for Second Zagreb Index with fixed number of vertices and cyclomatic number | Miskolc Mathematical Notes | 10.18514/mmn.2022.2382
+   - 2011 | Levit; Mandrescu | The Cyclomatic Number of a Graph and its Independence Polynomial at −1 | Graphs and Combinatorics | 10.1007/s00373-011-1101-7
+   - 2017 | Tam; Huang | Nullities of graphs with given order, matching number and cyclomatic number revisited | Linear Algebra and its Applications | 10.1016/j.laa.2017.08.024
+   - 2017 | Voblyi | Enumeration of labeled geodetic graphs with small cyclomatic number | Mathematical Notes | 10.1134/s0001434617050042
+  [semanticscholar] no usable response

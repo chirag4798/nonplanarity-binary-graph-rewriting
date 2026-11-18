@@ -1,0 +1,151 @@
+== seed Double-pushout graph transformation revisited (W2164661513)
+  topic 'planar': 0 citing works
+  topic 'planarity': 0 citing works
+  topic 'Betti': 0 citing works
+  topic 'cycle rank': 0 citing works
+  topic 'cyclomatic': 0 citing works
+  topic 'homology': 0 citing works
+  topic 'Kuratowski': 0 citing works
+  topic 'graph minor': 0 citing works
+  topic 'topological invariant': 0 citing works
+  topic 'genus': 0 citing works
+== seed Fundamentals of Algebraic Graph Transformation (W4205916380)
+  topic 'planar': 0 citing works
+  topic 'planarity': 0 citing works
+  topic 'Betti': 0 citing works
+  topic 'cycle rank': 0 citing works
+  topic 'cyclomatic': 0 citing works
+  topic 'homology': 0 citing works
+  topic 'Kuratowski': 0 citing works
+  topic 'graph minor': 4 citing works
+   * 2016 | Barbara König; Jan Stückrath | Well-structured graph transformation systems | https://doi.org/10.1016/j.ic.2016.03.005
+   * 2012 | Barbara König; Jan Stückrath | Well-Structured Graph Transformation Systems with Negative Application Conditions | https://doi.org/10.1007/978-3-642-33654-6_6
+   * 2016 | Jan Stückrath | Verification of Well-Structured Graph Transformation Systems | 
+   * 2020 | Sanaa Alwidian | Union Models: Support of Variability Modeling and Efficient Reasoning About Model Families Over Space and Time | https://doi.org/10.20381/ruor-24425
+  topic 'topological invariant': 0 citing works
+  topic 'genus': 1 citing works
+   * 2026 | José David García Cruz | Diagrammatic Inference for Ancient Logic: Formalising Aristotle’s Topics via Graph Transformations | https://doi.org/10.1007/978-3-032-34178-5_5
+== seed ALGEBRAIC APPROACHES TO GRAPH TRANSFORMATION – PART I: BASIC CONCEPTS AND DOUBLE (W1512007370)
+  topic 'planar': 1 citing works
+   * 2016 | Franz Josef Brandenburg | Recognizing Optimal 1-Planar Graphs in Linear Time | https://doi.org/10.1007/s00453-016-0226-8
+  topic 'planarity': 1 citing works
+  topic 'Betti': 0 citing works
+  topic 'cycle rank': 0 citing works
+  topic 'cyclomatic': 0 citing works
+  topic 'homology': 0 citing works
+  topic 'Kuratowski': 0 citing works
+  topic 'graph minor': 1 citing works
+   * 2016 | Jan Stückrath | Verification of Well-Structured Graph Transformation Systems | 
+  topic 'topological invariant': 0 citing works
+  topic 'genus': 0 citing works
+== seed Graph Minors. XX. Wagner's conjecture (W2067016370)
+  topic 'planar': 192 citing works
+   * 2019 | Walter Didimo; Giuseppe Liotta | A Survey on Graph Drawing Beyond Planarity | https://doi.org/10.1145/3301281
+   * 2011 | Dániel Marx; Ildikó Schlotter | Obtaining a Planar Graph by Vertex Deletion | https://doi.org/10.1007/s00453-010-9484-z
+   * 2013 | Petr A. Golovach; Pim van ’t Hof | Obtaining planarity by contracting few edges | https://doi.org/10.1016/j.tcs.2012.12.041
+   * 2019 | Marthe Bonamy; Cyril Gavoille | Shorter Labeling Schemes for Planar Graphs | https://doi.org/10.1137/20m1330464
+   * 2021 | Hooman Reisi Dehkordi; Graham E. Farr | Non-Separating Planar Graphs | https://doi.org/10.37236/8816
+   * 2018 | Jane Tan | Quartic planar graphs | https://doi.org/10.25911/5d9efb60011fe
+   * 2007 | Dániel Marx; Ildikó Schlotter | Obtaining a Planar Graph by Vertex Deletion | https://doi.org/10.1007/978-3-540-74839-7_28
+   * 2010 | Marcin Kamiński; Daniël Paulusma | Contractions of Planar Graphs in Polynomial Time | https://doi.org/10.1007/978-3-642-15775-2_11
+   * 1997 | Arvind K. Gupta; Russell Impagliazzo | Bounding the Size of Planar Intertwines | https://doi.org/10.1137/s0895480192239931
+   * 2025 | Joel Foisy; Luis Ángel Topete Galván | Links in projective planar graphs | https://doi.org/10.2140/involve.2025.18.199
+   * 2011 | Jamie Sneddon; C. Paul Bonnington | A Note on Obstructions to Clustered Planarity | https://doi.org/10.37236/646
+   * 2011 | Isolde Adler; Frederic Dorn | Fast Minor Testing in Planar Graphs | https://doi.org/10.1007/s00453-011-9563-9
+   * 2021 | Éva Czabarka; Stephen J. Smith | An Infinite Antichain of Planar Tanglegrams | https://doi.org/10.1007/s11083-021-09563-6
+   * 2012 | Petr A. Golovach; Pim van ’t Hof | Obtaining Planarity by Contracting Few Edges | https://doi.org/10.1007/978-3-642-32589-2_41
+   * 2017 | Max Lipton; Eoin Mackall | Six variations on a theme: almost planar graphs | https://doi.org/10.2140/involve.2018.11.413
+   * 2020 | Youssou Dieng; Cyril Gavoille | On the Treewidth of Planar Minor Free Graphs | https://doi.org/10.1007/978-3-030-51051-0_17
+   * 2010 | Isolde Adler; Frederic Dorn | Fast Minor Testing in Planar Graphs | https://doi.org/10.1007/978-3-642-15775-2_9
+   * 2011 | Marcin Kamiński; Daniël Paulusma | Contracting planar graphs to contractions of triangulations | https://doi.org/10.1016/j.jda.2011.03.010
+   * 2009 | Hein van der Holst; Rudi A. Pendavingh | On a graph property generalizing planarity and flatness | https://doi.org/10.1007/s00493-009-2219-6
+   * 2004 | Petr Hliněný; Robin Thomas | On possible counterexamples to Negami's planar cover conjecture | https://doi.org/10.1002/jgt.10177
+   * 2025 | Nicholas Abell; Elizabeth McDermott | Projective Planar Cartesian Products of Graphs | https://doi.org/10.48550/arxiv.2509.10261
+   * 2023 | Archontia C. Giannopoulou; Stephan Kreutzer | Excluding a planar matching minor in bipartite graphs | https://doi.org/10.1016/j.jctb.2023.09.003
+   * 2007 | David R. Wood; Jan Arne Telle | Planar Decompositions and the Crossing Number of Graphs with an Excluded Minor | https://doi.org/10.1007/978-3-540-70904-6_16
+   * 2025 | Kiyan Naderi; Konstantin Pankrashkin | Planarity and Colin de Verdière Invariant | https://doi.org/10.1007/978-3-032-01708-6_4
+   * 2010 | Tanya Lueder | A characterization of near outer-planar graphs | https://doi.org/10.31390/gradschool_theses.3001
+  topic 'planarity': 192 citing works
+  topic 'Betti': 1 citing works
+   * 2012 | Sebastian Baader; Pierre Dehornoy | Minor theory for surfaces and divides of maximal signature | https://doi.org/10.48550/arxiv.1211.7348
+  topic 'cycle rank': 5 citing works
+   * 2026 | Gabor Riccardi; Niels Lindner | Characterizations and Complexity of Minimum Forward and Integer Cycle Bases | https://doi.org/10.48550/arxiv.2609.02317
+   * 2020 | Frank Gurski; Dominique Komander | How to compute digraph width measures on directed co-graphs | https://doi.org/10.1016/j.tcs.2020.11.047
+   * 2026 | Rutger Campbell; J. Pascal Gollin | The Erdős-Pósa property for circle graphs as vertex-minors | https://doi.org/10.1137/1.9781611978971.178
+   * 2018 | Kevin Grace | Templates for Representable Matroids | https://doi.org/10.31390/gradschool_dissertations.4610
+   * 2015 | Daryl Funk | On excluded minors and biased graph representations of frame matroids | 
+  topic 'cyclomatic': 0 citing works
+  topic 'homology': 8 citing works
+   * 2020 | Tamal K. Dey; Ryan Slechta | Filtration Simplification for Persistent Homology via Edge Contraction | https://doi.org/10.1007/s10851-020-00956-7
+   * 2019 | Tamal K. Dey; Ryan Slechta | Filtration Simplification for Persistent Homology via Edge Contraction | https://doi.org/10.1007/978-3-030-14085-4_8
+   * 2024 | Ben Knudsen; Eric Ramos | Robertson’s conjecture and universal finite generation in the homology of graph braid groups | https://doi.org/10.1007/s00029-024-00971-1
+   * 2023 | Dane Miyata; Eric Ramos | The graph minor theorem in topological combinatorics | https://doi.org/10.1016/j.aim.2023.109203
+   * 2020 | Dane Miyata; Nicholas J. Proudfoot | The categorical graph minor theorem | https://doi.org/10.48550/arxiv.2004.05544
+   * 2024 | Luigi Caputi; Carlo Collari | The weak categorical quiver minor theorem and its applications: matchings, multipaths, and magnitude cohomolog | https://doi.org/10.48550/arxiv.2401.01248
+   * 2018 | Andreas F. Holmsen; Minki Kim | Nerves, minors, and piercing numbers | https://doi.org/10.1090/tran/7608
+   * 2026 | Adityo Mamun; Jonathan Nalikka | Universality in the algebra and topology of cographs | https://doi.org/10.48550/arxiv.2609.04554
+  topic 'Kuratowski': 14 citing works
+   * 2005 | Dan Archdeacon | Variations on a theme of Kuratowski | https://doi.org/10.1016/j.disc.2004.07.026
+   * 2026 | Neil Robertson; Paul D. Seymour | Excluding disjoint Kuratowski graphs | https://doi.org/10.1016/j.jctb.2026.01.002
+   * 2017 | Johannes Carmesin | Embedding simply connected 2-complexes in 3-space -- I. A Kuratowski-type characterisation | https://doi.org/10.48550/arxiv.1709.04642
+   * 2017 | Thomas W. Mattman | Forbidden Minors: Finding the Finite Few | https://doi.org/10.1007/978-3-319-66065-3_4
+   * 2005 | László Lovász | Graph minor theory | https://doi.org/10.1090/s0273-0979-05-01088-8
+   * 2026 | Johannes Carmesin | Embedding Simply Connected 2-Complexes in 3-Space | https://doi.org/10.1090/memo/1625
+   * 2015 | Sergey Norin | New tools and results in graph minor structure theory | https://doi.org/10.1017/cbo9781316106853.008
+   * 2011 | Marc Noy | El gran teorema de la combinatòria moderna | https://doi.org/10.2436/bscm.v0i0.60046
+   * 2024 | Christophe Paul; Evangelos Protopapas | Delineating Half-Integrality of the Erdős-Pósa Property for Minors: The Case of Surfaces | https://doi.org/10.4230/lipics.icalp.2024.114
+   * 2024 | Christophe Paul; Evangelos Protopapas | Delineating Half-Integrality of the Erdős-Pósa Property for Minors: the Case of Surfaces | https://doi.org/10.48550/arxiv.2406.16647
+   * 2014 | Boris Albar A | Etude des classes de graphes et de matroïdes closes par mineur : densité de triangles, coloration, rigidité et | https://doi.org/10.70675/6d7296deza214z4febzade9z922c7f4d9d17
+   * 2012 | Ken‐ichi Kawarabayashi; Yusuke Kobayashi | List-Coloring Graphs without Subdivisions and without Immersions | https://doi.org/10.1137/1.9781611973099.112
+  topic 'graph minor': 459 citing works
+   * 2009 | Neil Robertson; Paul D. Seymour | Graph minors. XXI. Graphs with unique linkages | https://doi.org/10.1016/j.jctb.2008.08.003
+   * 2005 | Erik D. Demaine; MohammadTaghi Hajiaghayi | Algorithmic Graph Minor Theory: Decomposition, Approximation, and Coloring | https://doi.org/10.1109/sfcs.2005.14
+   * 2009 | Neil Robertson; Paul D. Seymour | Graph minors XXIII. Nash-Williams' immersion conjecture | https://doi.org/10.1016/j.jctb.2009.07.003
+   * 2014 | Liang Chen; Tulika Mitra | Graph Minor Approach for Application Mapping on CGRAs | https://doi.org/10.1145/2655242
+   * 2004 | Jianbing Niu | Graph minor | https://doi.org/10.33915/etd.2122
+   * 2011 | Ken‐ichi Kawarabayashi; Bruce A. Reed | The Graph Minor Algorithm with Parity Conditions | https://doi.org/10.1109/focs.2011.52
+   * 2007 | Makoto Ozawa; Yukihiro Tsutsumi | Primitive Spatial Graphs and Graph Minors | https://doi.org/10.5209/rev_rema.2007.v20.n2.16496
+   * 2018 | Jim Geelen; Tony Huynh | Explicit bounds for graph minors | https://doi.org/10.1016/j.jctb.2018.03.004
+   * 2013 | Rodney G. Downey; Michael R. Fellows | The Graph Minor Theorem | https://doi.org/10.1007/978-1-4471-5559-1_18
+   * 2007 | Ken‐ichi Kawarabayashi; Bojan Mohar | Some Recent Progress and Applications in Graph Minor Theory | https://doi.org/10.1007/s00373-006-0684-x
+   * 2018 | Benjamin R. Moore; Naomi Nishimura | Reconfiguration of Graph Minors | https://doi.org/10.4230/lipics.mfcs.2018.75
+   * 2012 | Dimitrios M. Thilikos | Graph Minors and Parameterized Algorithm Design | https://doi.org/10.1007/978-3-642-30891-8_13
+   * 2008 | Salil Joshi; Barbara König | Applying the Graph Minor Theorem to the Verification of Graph Transformation Systems | https://doi.org/10.1007/978-3-540-70545-1_21
+   * 2020 | Martin Krombholz; Michael Rathjen | Upper Bounds on the Graph Minor Theorem | https://doi.org/10.1007/978-3-030-30229-0_6
+   * 2011 | Ken‐ichi Kawarabayashi; Paul Wollan | A simpler algorithm and shorter proof for the graph minor decomposition | https://doi.org/10.1145/1993636.1993697
+   * 2025 | Maximilian Gorsky; Michał T. Seweryn | Polynomial bounds for the Graph Minor Structure Theorem | https://doi.org/10.1109/focs63196.2025.00104
+   * 2023 | Konstantinos Kaparis; Adam N. Letchford | On cut polytopes and graph minors | https://doi.org/10.1016/j.disopt.2023.100807
+   * 2003 | Neil Robertson; Paul D. Seymour | Graph Minors. XIX. Well-quasi-ordering on a surface | https://doi.org/10.1016/j.jctb.2003.08.005
+   * 2022 | Eric Ramos | The Graph Minor Theorem Meets Algebra | https://doi.org/10.1090/noti2522
+   * 2017 | Benjamin R. Moore | Rooted Graph Minors and Reducibility of Graph Polynomials | https://doi.org/10.48550/arxiv.1704.04701
+   * 2007 | Erik D. Demaine; MohammadTaghi Hajiaghayi | Algorithmic Graph Minor Theory: Improved Grid Minor Bounds and Wagner’s Contraction | https://doi.org/10.1007/s00453-007-9138-y
+  topic 'topological invariant': 6 citing works
+   * 2008 | Amit Chakrabarti; Alexander Jaffe | Embeddings of Topological Graphs: Lossy Invariants, Linearization, and 2-Sums | https://doi.org/10.1109/focs.2008.79
+   * 2015 | Martin Grohe; Dániel Marx | Structure Theorem and Isomorphism Test for Graphs with Excluded Topological Subgraphs | https://doi.org/10.1137/120892234
+   * 2016 | Edgar A. Bering; Gabriel Conant | On the complexity of finite subgraphs of the curve graph | https://doi.org/10.48550/arxiv.1609.02548
+   * 2023 | Marthe Bonamy; Nicolás Bousquet | Asymptotic dimension of minor-closed families and Assouad–Nagata dimension of surfaces | https://doi.org/10.4171/jems/1341
+   * 2020 | Marthe Bonamy; Nicolás Bousquet | Surfaces have (asymptotic) dimension 2 | https://doi.org/10.48550/arxiv.2007.03582
+   * 2016 | Konstantinos S. Stavropoulos | On graph sparsity and structure : colourings and graph decompositions | https://doi.org/10.18154/rwth-2017-08007
+  topic 'genus': 49 citing works
+   * 2013 | Jianer Chen | Minimum Genus and Maximum Genus | https://doi.org/10.1201/b16132-46
+   * 2015 | Jonathan L. Gross; Toufik Mansour | Log-Concavity of Combinations of Sequences and Applications to Genus Distributions | https://doi.org/10.1137/140978867
+   * 2024 | Guillaume Bonfante; Florian Deloup | The genus of regular languages and directed graph emulators | https://doi.org/10.1016/j.tcs.2024.114579
+   * 2015 | Radu Curticapean; Mingji Xia | Parameterizing the Permanent: Genus, Apices, Minors, Evaluation Mod 2k | https://doi.org/10.1109/focs.2015.65
+   * 2026 | Florian Lehner; Babak Miraftab | Sparse cycle bases for graphs with bounded genus | https://doi.org/10.1016/j.ejc.2026.104371
+   * 2026 | Ambrosius Metzger; Austin Ulrigg | An efficient genus algorithm based on graph rotations | https://doi.org/10.1016/j.disc.2026.115308
+   * 2011 | Ignasi Sau; Dimitrios M. Thilikos | On self-duality of branchwidth in graphs of bounded genus | https://doi.org/10.1016/j.dam.2011.06.028
+   * 2016 | Iain Moffatt | Ribbon Graph Minors and Low-Genus Partial Duals | https://doi.org/10.1007/s00026-016-0301-5
+   * 2002 | Bruno Courcelle; V. Dussaux | Map Genus, Forbidden Maps, and Monadic Second-Order Logic | https://doi.org/10.37236/1656
+   * 2026 | Isidoro Gitler; José de Jesús Rodríguez-Martínez | On Ribbon Graphs that Admit a Partial Dual of Euler Genus at Most Two | https://doi.org/10.37236/13807
+   * 2019 | Timothy Sun | Testing Convexity and Acyclicity, and New Constructions for Dense Graph Embeddings | https://doi.org/10.7916/d8-fs41-c774
+   * 2016 | Bojan Mohar; Petr Škoda | Obstructions for two-vertex alternating embeddings of graphs in surfaces | https://doi.org/10.1016/j.ejc.2016.08.001
+   * 2019 | Joshua Erde; Daniel Weißauer | A Short Derivation of the Structure Theorem for Graphs with Excluded Topological Minors | https://doi.org/10.1137/18m1198296
+   * 2015 | Gašper Fijavž; Atsuhiro Nakamoto | Odd complete minors in even embeddings on surfaces | https://doi.org/10.1016/j.disc.2015.07.015
+   * 2026 | Sarah Houdaigoui; Ken‐ichi Kawarabayashi | An almost quadratic bound for the minimal excluded minors for a surface | https://doi.org/10.48550/arxiv.2604.02796
+   * 2026 | Sarah Houdaigoui; Ken‐ichi Kawarabayashi | A quasi-polynomial bound for the minimal excluded minors for a surface | https://doi.org/10.1137/1.9781611978971.167
+   * 2012 | Adam Bouland; Anuj Dawar | On Tractable Parameterizations of Graph Isomorphism | https://doi.org/10.1007/978-3-642-33293-7_21
+   * 2009 | Julia Böttcher; Klaas P. Pruessmann | Bandwidth, expansion, treewidth, separators and universality for bounded-degree graphs | https://doi.org/10.1016/j.ejc.2009.10.010
+   * 2026 | Elizabeth Badgett; Christian Millichap | Toroidal Cartesian Products Where One Factor is 3-Connected | https://doi.org/10.1007/s00373-026-03044-6
+   * 2007 | Raphael Yuster; Uri Zwick | Maximum matching in graphs with an excluded minor | https://doi.org/10.5555/1283383.1283396
+   * 2026 | Daniel Neuen; Tim Seppelt | Distinguishing Graphs by Counting Homomorphisms from Sparse Graphs | https://doi.org/10.48550/arxiv.2601.18602
+   * 2026 | Daniel Neuen; Tim Seppelt | Distinguishing Graphs by Counting Homomorphisms from Sparse Graphs | https://doi.org/10.4230/lipics.lics.2026.75

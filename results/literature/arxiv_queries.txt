@@ -1,0 +1,57 @@
+== graph rewriting planarity preserved
+  [arxiv] total 1
+   - 2026 | Thomas Perez; Titouan Carette | Premonoidal Semantics and Scalable Diagrammatics of Fermionic Quantum Computing | http://arxiv.org/abs/2610.02287v1
+== graph transformation planar graphs preserved by rules
+  [arxiv] total 0
+== graph transformation minor closed class
+  [arxiv] total 7
+   - 2017 | Nicolas Bousquet; Arnaud Mary; Aline Parreau | Token Jumping in minor-closed classes | http://arxiv.org/abs/1706.09608v1
+   - 2020 | Dieter Rautenbach; Johannes Redl | Reconfiguring dominating sets in minor-closed graph classes | http://arxiv.org/abs/2005.13844v1
+   - 2020 | Chun-Hung Liu | Asymptotic dimension of minor-closed families and beyond | http://arxiv.org/abs/2007.08771v2
+   - 2023 | Béni Egressy; Luc von Niederhäusern; Jovan Blanusa | Provably Powerful Graph Neural Networks for Directed Multigraphs | http://arxiv.org/abs/2306.11586v3
+   - 2026 | Alcides Buss; Julian Kranz | On groupoids beyond partial actions, inner amenability, and models for Kirchberg algebras | http://arxiv.org/abs/2604.17921v2
+   - 2026 | Jason Fong; Jeffrey Kam; Steven Wong | Reconfiguring Subgraphs with Extra Resources | http://arxiv.org/abs/2607.10399v1
+   - 2012 | Hadi Minooei; Chaitanya Swamy | Truthful Mechanism Design for Multidimensional Covering Problems | http://arxiv.org/abs/1211.3201v4
+== graph minor rewriting rule preserves
+  [arxiv] total 0
+== double pushout rewriting cycle rank
+  [arxiv] total 0
+== graph rewriting first Betti number
+  [arxiv] total 0
+== hypergraph rewriting topology invariant
+  [arxiv] total 0
+== Wolfram model hypergraph rewriting non-planar
+  [arxiv] total 0
+== Wolfram model particles topological defects
+  [arxiv] total 0
+== hypergraph rewriting homology
+  [arxiv] total 0
+== preservation of graph properties under graph transformation
+  [arxiv] total 0
+== graph grammar planarity
+  [arxiv] total 7
+   - 2026 | Nicolas Hochuli; Lorenzo Miele; Kristina Shea | Constrained Goal-directed Planar Graph Generation with Grammar-based Reinforcement Learning | http://arxiv.org/abs/2610.06244v1
+   - 2022 | Tobias Reinhart; Gemma De les Coves | The grammar of the Ising model: A new complexity hierarchy | http://arxiv.org/abs/2208.08301v3
+   - 2008 | Guillaume Chapuy; Eric Fusy; Mihyun Kang | A Complete Grammar for Decomposing a Family of Graphs into 3-connected Components | http://arxiv.org/abs/0808.1138v2
+   - 2023 | Luxin Luo; Sida Kong | The S-rule and 1-d representation for the traversal of a planar graph in AEC industry | http://arxiv.org/abs/2308.06446v1
+   - 2026 | József Pintér | The crumby coloring conjecture for subcubic outerplanar graphs | http://arxiv.org/abs/2607.06515v1
+   - 2023 | Marco Ripà | Metric spaces in chess and international chess pieces graph diameters | http://arxiv.org/abs/2311.00016v3
+   - 2010 | Bobbe Cooper; Eric Rowland; Doron Zeilberger | Toward a language theoretic proof of the four color theorem | http://arxiv.org/abs/1006.1324v2
+== graph grammars Kuratowski
+  [arxiv] total 0
+== local graph rewriting minor theory
+  [arxiv] total 2
+   - 2024 | Pierre-Louis Curien; Guillaume Laplante-Anfossi | Term rewriting on nestohedra | http://arxiv.org/abs/2403.15987v2
+   - 2012 | Pablo Arrighi; Gilles Dowek | Causal graph dynamics | http://arxiv.org/abs/1202.1098v3
+== edge replacement grammar planar graphs
+  [arxiv] total 0
+== graph rewriting K5 K3,3 subdivision
+  [arxiv] total 0
+== graph rewriting dynamic graphs planarity maintenance
+  [arxiv] total 0
+== monadic second order logic graph transformation minors
+  [arxiv] total 0
+== homeomorphic embedding graph rewriting well-quasi-order
+  [arxiv] total 0
+== rewriting of graphs and cyclomatic number
+  [arxiv] total 0
